@@ -18,7 +18,7 @@
       'hero.cta': 'Записаться',
       'hero.whatsapp': 'WhatsApp',
 
-      'intro.title': '',
+      'intro.title': 'Важно',
       'intro.text': 'Мы создаём пространство, в котором ребёнку спокойно, понятно и интересно. Где он может быть собой и постепенно раскрывать себя.',
 
       'noticed.title': 'Вы это замечали?',
@@ -154,7 +154,7 @@
       'hero.cta': 'Sign Up',
       'hero.whatsapp': 'WhatsApp',
 
-      'intro.title': '',
+      'intro.title': 'Important',
       'intro.text': 'We want kids to feel calm, understood, and curious here. To just be themselves.',
 
       'noticed.title': 'Have you noticed this?',
