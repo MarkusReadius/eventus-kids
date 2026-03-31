@@ -48,7 +48,7 @@
       </a>
       <ul class="nav__links" id="nav-links" role="list">
         <li><a href="#about" class="nav__link" data-i18n="nav.about">О нас</a></li>
-        <li><a href="#programs" class="nav__link" data-i18n="nav.programs">Направления</a></li>
+        <li><a href="/programs.html" class="nav__link" data-i18n="nav.programs">Направления</a></li>
         <li><a href="#reviews" class="nav__link" data-i18n="nav.reviews">Отзывы</a></li>
         <li><a href="#schedule" class="nav__link" data-i18n="nav.schedule">Расписание</a></li>
         <li><a href="#register" class="nav__link nav__link--cta" data-i18n="nav.register">Записаться</a></li>
@@ -87,16 +87,8 @@
       </div>
     </section>
 
-    <!-- ВАЖНО -->
-    <section class="sec" id="intro">
-      <div class="wrap wrap--md anim">
-        <h2 class="sec__title sec__title--center" data-i18n="intro.title">Важно</h2>
-        <p class="intro__text" data-i18n="intro.text">Мы создаём пространство, в котором ребёнку спокойно, понятно и интересно. Где он может быть собой и постепенно раскрывать себя.</p>
-      </div>
-    </section>
-
     <!-- ВЫ ЭТО ЗАМЕЧАЛИ? -->
-    <section class="sec sec--gray" id="noticed">
+    <section class="sec" id="noticed">
       <div class="wrap wrap--md anim">
         <h2 class="sec__title" data-i18n="noticed.title">Вы это замечали?</h2>
         <p class="noticed__lead" data-i18n="noticed.lead">Ребёнок:</p>
@@ -110,7 +102,7 @@
     </section>
 
     <!-- О НАС -->
-    <section class="sec" id="about">
+    <section class="sec sec--gray" id="about">
       <div class="wrap">
         <div class="about__grid anim">
           <img class="about__img" src="images/about.jpg" alt="Children in creative activities" loading="lazy">
@@ -129,117 +121,38 @@
       </div>
     </section>
 
-    <!-- КАК ПРОХОДЯТ ЗАНЯТИЯ -->
-    <section class="sec sec--gray" id="sessions">
-      <div class="wrap wrap--md anim">
-        <h2 class="sec__title" data-i18n="sessions.title">Как проходят занятия</h2>
-        <p data-i18n="sessions.p1">Мы работаем в трёх направлениях: театр, музыка и декоративное искусство.</p>
-        <p data-i18n="sessions.p2">Они не существуют отдельно. Мы соединяем их в одном процессе, чтобы ребёнок проживал опыт целиком.</p>
-        <p data-i18n="sessions.p3">Например: то, что ребёнок почувствовал на театральных занятиях, он может выразить через голос на музыке или воплотить в творческой работе на уроке арта.</p>
-        <p data-i18n="sessions.p4">Это даёт более глубокий результат, чем отдельные кружки.</p>
-      </div>
-    </section>
-
-    <!-- ЧТО ПОЛУЧАЕТ РЕБЁНОК -->
-    <section class="sec" id="outcomes">
-      <div class="wrap wrap--md anim">
-        <h2 class="sec__title" data-i18n="outcomes.title">Что получает ребёнок</h2>
-        <p class="outcomes__lead" data-i18n="outcomes.lead">Результат — не в поделке или выученной песне.</p>
-        <p data-i18n="outcomes.sublead">Ребёнок:</p>
-        <ul class="check-list">
-          <li data-i18n="outcomes.1">начинает свободнее говорить</li>
-          <li data-i18n="outcomes.2">учится формулировать мысли</li>
-          <li data-i18n="outcomes.3">перестаёт бояться проявляться</li>
-          <li data-i18n="outcomes.4">лучше понимает свои эмоции</li>
-          <li data-i18n="outcomes.5">учится слышать других</li>
-        </ul>
-        <p class="outcomes__highlight" data-i18n="outcomes.highlight">И самое важное — появляется ощущение: «я могу»</p>
-      </div>
-    </section>
-
-    <!-- НАПРАВЛЕНИЯ -->
-    <section class="sec sec--gray" id="programs">
+    <!-- НАПРАВЛЕНИЯ (cards) -->
+    <section class="sec" id="programs">
       <div class="wrap">
         <h2 class="sec__title sec__title--center" data-i18n="programs.title">Направления</h2>
-
-        <div class="program anim">
-          <img class="program__img" src="images/theater.jpg" alt="Theater" loading="lazy">
-          <div class="program__body">
-            <h3 class="program__title" data-i18n="prog.theater.title">Театр</h3>
-            <p data-i18n="prog.theater.p1">Через театральные упражнения ребёнок:</p>
-            <ul class="check-list">
-              <li data-i18n="prog.theater.b1">раскрепощается</li>
-              <li data-i18n="prog.theater.b2">учится общаться</li>
-              <li data-i18n="prog.theater.b3">снимает внутренние зажимы</li>
-            </ul>
-            <p data-i18n="prog.theater.p2">Мы работаем с речью, вниманием и эмоциями. Учимся говорить, слушать и понимать.</p>
-          </div>
+        <div class="pcards anim">
+          <a href="/programs.html#programs" class="pcard">
+            <img class="pcard__img" src="images/theater.jpg" alt="Theater" loading="lazy">
+            <div class="pcard__body">
+              <h3 class="pcard__title" data-i18n="prog.theater.title">Театр</h3>
+            </div>
+          </a>
+          <a href="/programs.html#programs" class="pcard">
+            <img class="pcard__img" src="images/music.jpg" alt="Music" loading="lazy">
+            <div class="pcard__body">
+              <h3 class="pcard__title" data-i18n="prog.music.title">Музыка</h3>
+            </div>
+          </a>
+          <a href="/programs.html#programs" class="pcard">
+            <img class="pcard__img" src="images/art.jpg" alt="Art" loading="lazy">
+            <div class="pcard__body">
+              <h3 class="pcard__title" data-i18n="prog.art.title">Декоративное искусство</h3>
+            </div>
+          </a>
         </div>
-
-        <div class="program program--reverse anim">
-          <img class="program__img" src="images/music.jpg" alt="Music" loading="lazy">
-          <div class="program__body">
-            <h3 class="program__title" data-i18n="prog.music.title">Музыка</h3>
-            <p data-i18n="prog.music.lead">Мы:</p>
-            <ul class="check-list">
-              <li data-i18n="prog.music.b1">развиваем голос</li>
-              <li data-i18n="prog.music.b2">учимся петь</li>
-              <li data-i18n="prog.music.b3">знакомимся с нотами</li>
-              <li data-i18n="prog.music.b4">тренируем слух</li>
-            </ul>
-            <p data-i18n="prog.music.p1">Но главное — мы делаем из песен мини-представления, где ребёнок проживает музыку, а не просто повторяет её.</p>
-          </div>
+        <div class="programs__more anim">
+          <a href="/programs.html" class="btn btn--ghost" data-i18n="programs.more">Подробнее о направлениях</a>
         </div>
-
-        <div class="program anim">
-          <img class="program__img" src="images/art.jpg" alt="Art" loading="lazy">
-          <div class="program__body">
-            <h3 class="program__title" data-i18n="prog.art.title">Декоративное искусство</h3>
-            <p data-i18n="prog.art.p1">Это не «поделки ради результата».</p>
-            <p data-i18n="prog.art.lead">Через прикладное творчество ребёнок:</p>
-            <ul class="check-list">
-              <li data-i18n="prog.art.b1">выражает себя</li>
-              <li data-i18n="prog.art.b2">рассказывает свою историю</li>
-              <li data-i18n="prog.art.b3">осмысляет свой опыт</li>
-            </ul>
-            <p data-i18n="prog.art.p2">Работы получаются живыми и личными — и это чувствуется.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ОТКРЫТЫЕ ЗАНЯТИЯ -->
-    <section class="sec" id="open">
-      <div class="wrap wrap--md anim">
-        <h2 class="sec__title" data-i18n="open.title">Открытые занятия</h2>
-        <p data-i18n="open.p1">Мы регулярно проводим открытые занятия.</p>
-        <p data-i18n="open.lead">Родители получают возможность:</p>
-        <ul class="check-list">
-          <li data-i18n="open.b1">увидеть процесс</li>
-          <li data-i18n="open.b2">понять, как развивается ребёнок</li>
-          <li data-i18n="open.b3">провести время вместе</li>
-        </ul>
-        <p data-i18n="open.p2">Это не показательные выступления, а естественный результат нашей совместной работы.</p>
-      </div>
-    </section>
-
-    <!-- ПОЧЕМУ РОДИТЕЛИ ВЫБИРАЮТ НАС -->
-    <section class="sec sec--gray" id="why">
-      <div class="wrap wrap--md anim">
-        <h2 class="sec__title" data-i18n="why.title">Почему родители выбирают нас?</h2>
-        <ul class="check-list">
-          <li data-i18n="why.1">маленькие группы и внимание к каждому</li>
-          <li data-i18n="why.2">живая среда без давления</li>
-          <li data-i18n="why.3">развитие речи, уверенности и эмоционального интеллекта</li>
-          <li data-i18n="why.4">видимый результат</li>
-          <li data-i18n="why.5">ребёнок хочет возвращаться</li>
-        </ul>
-        <p class="why__closing" data-i18n="why.closing">Это не кружок. Это среда развития.</p>
       </div>
     </section>
 
     <!-- ОТЗЫВЫ -->
-    <section class="sec" id="reviews">
+    <section class="sec sec--gray" id="reviews">
       <div class="wrap">
         <h2 class="sec__title" data-i18n="reviews.title">Отзывы</h2>
         <div class="reviews__grid">
@@ -251,7 +164,7 @@
     </section>
 
     <!-- ФОРМАТ / РАСПИСАНИЕ -->
-    <section class="sec sec--gray" id="schedule">
+    <section class="sec" id="schedule">
       <div class="wrap">
         <h2 class="sec__title" data-i18n="schedule.title">Формат</h2>
         <div class="sched__grid anim">

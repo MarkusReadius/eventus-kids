@@ -53,6 +53,7 @@
       'outcomes.highlight': 'И самое важное \u2014 появляется ощущение: \u00ABя могу\u00BB',
 
       'programs.title': 'Направления',
+      'programs.more': 'Подробнее о направлениях',
       'prog.theater.title': 'Театр',
       'prog.theater.p1': 'Через театральные упражнения ребёнок:',
       'prog.theater.b1': 'раскрепощается',
@@ -189,6 +190,7 @@
       'outcomes.highlight': 'And the big one: real confidence. "I can do this."',
 
       'programs.title': 'Programs',
+      'programs.more': 'More about our programs',
       'prog.theater.title': 'Theater',
       'prog.theater.p1': 'Through theater exercises, your child:',
       'prog.theater.b1': 'loosens up',

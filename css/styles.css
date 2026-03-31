@@ -107,6 +107,18 @@ h1, h2, h3 { color: #1B3A6B; font-weight: 800; line-height: 1.25; }
 .outcomes__lead { color: #555; margin-bottom: .5rem; font-size: .95rem; }
 .outcomes__highlight { margin-top: 1rem; font-size: 1.1rem; font-weight: 800; color: #1B3A6B; }
 
+/* ── PROGRAM CARDS (landing page) ── */
+.pcards { display: grid; grid-template-columns: 1fr; gap: 1rem; margin-bottom: 1.5rem; }
+.pcard { display: block; background: #fff; border-radius: 12px; overflow: hidden; border: 1px solid #eee; transition: transform .2s, box-shadow .2s; }
+.pcard:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(0,0,0,.07); }
+.pcard__img { height: 160px; width: 100%; object-fit: cover; }
+.pcard__body { padding: 1rem; }
+.pcard__title { font-size: 1.05rem; }
+.programs__more { text-align: center; }
+
+/* ── PAGE TOP (for non-hero pages) ── */
+.page-top { padding-top: calc(72px + 2.5rem); }
+
 /* ── PROGRAMS (side-by-side) ── */
 .program { display: flex; flex-direction: column; gap: 1.5rem; margin-bottom: 2.5rem; }
 .program:last-child { margin-bottom: 0; }
@@ -198,6 +210,7 @@ h1, h2, h3 { color: #1B3A6B; font-weight: 800; line-height: 1.25; }
 /* ── RESPONSIVE ── */
 @media (min-width: 640px) {
   .hero__btns { flex-direction: row; }
+  .pcards { grid-template-columns: repeat(3, 1fr); }
   .reviews__grid { grid-template-columns: repeat(3, 1fr); }
   .form__row { flex-direction: row; }
   .form__row .form__group { flex: 1; }
