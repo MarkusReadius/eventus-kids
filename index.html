@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Eventus Kids — Креативный детский клуб в Нетании</title>
-  <meta name="description" content="Eventus Kids — креативный детский клуб в Нетании. Развиваем речь, эмоциональный интеллект и уверенность через театр, музыку и творчество.">
+  <meta name="description" content="Eventus Kids — креативный детский клуб в Нетании. Развиваем речь, эмоциональный интеллект и уверенность через театр, музыку и творчество. Суббота, маленькие группы.">
   <link rel="canonical" href="https://eventus-kids.com/">
 
   <!-- Open Graph -->
@@ -26,7 +26,7 @@
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
 
   <!-- Styles -->
   <link rel="stylesheet" href="css/styles.css">
@@ -39,7 +39,7 @@
     "name": "Eventus Kids",
     "description": "Creative children's club developing speech, emotional intelligence, and confidence through theater, music, and decorative arts.",
     "url": "https://eventus-kids.com",
-    "telephone": "+972-XX-XXX-XXXX",
+    "telephone": "+972557704007",
     "email": "info@eventus-kids.com",
     "address": {
       "@type": "PostalAddress",
@@ -77,9 +77,8 @@
       </a>
 
       <ul class="nav__links" id="nav-links" role="list">
-        <li><a href="#about" class="nav__link" data-i18n="nav.about">О нас</a></li>
         <li><a href="#programs" class="nav__link" data-i18n="nav.programs">Направления</a></li>
-        <li><a href="#teachers" class="nav__link" data-i18n="nav.teachers">Педагоги</a></li>
+        <li><a href="#about" class="nav__link" data-i18n="nav.about">О нас</a></li>
         <li><a href="#reviews" class="nav__link" data-i18n="nav.reviews">Отзывы</a></li>
         <li><a href="#schedule" class="nav__link" data-i18n="nav.schedule">Расписание</a></li>
         <li><a href="#register" class="nav__link nav__link--cta" data-i18n="nav.register">Записаться</a></li>
@@ -103,321 +102,266 @@
 
   <main id="main-content">
 
-    <!-- Hero Section -->
+    <!-- ========== HERO ========== -->
     <section class="hero" id="hero">
       <div class="hero__bg"></div>
       <div class="hero__content">
-        <div class="hero__logo-mark" aria-hidden="true">
-          <span class="hero__logo-eventus">Eventus</span>
-          <span class="hero__logo-kids">Kids</span>
-        </div>
         <h1 class="hero__title" data-i18n="hero.title">Креативный детский клуб в Нетании</h1>
-        <p class="hero__subtitle" data-i18n="hero.subtitle">Ребёнок становится увереннее, учится выражать себя и лучше понимать других</p>
-        <a href="#register" class="btn btn--primary hero__cta" data-i18n="hero.cta">Записаться</a>
-        <p class="hero__location" data-i18n="hero.location">Нетания | Суббота | Маленькие группы</p>
+        <p class="hero__subtitle" data-i18n="hero.subtitle">Развиваем речь, уверенность и эмоциональный интеллект через театр, музыку и творчество</p>
+        <div class="hero__actions">
+          <a href="#register" class="btn btn--primary btn--lg" data-i18n="hero.cta">Записаться на пробное занятие</a>
+          <a href="https://wa.me/972557704007" class="btn btn--outline btn--lg" target="_blank" rel="noopener noreferrer" data-i18n="hero.whatsapp">Написать в WhatsApp</a>
+        </div>
       </div>
     </section>
 
-    <!-- Intro Section -->
-    <section class="section section--white intro" id="intro">
-      <div class="container container--narrow animate-on-scroll">
-        <p class="intro__text" data-i18n="intro.text">Мы создаём пространство, в котором ребёнку спокойно, понятно и интересно. Где он может быть собой и постепенно раскрывать себя.</p>
-      </div>
-    </section>
-
-    <!-- Have You Noticed Section -->
-    <section class="section section--cream noticed" id="noticed">
-      <div class="container container--narrow animate-on-scroll">
-        <h2 class="section__title" data-i18n="noticed.title">Вы замечали такое?</h2>
-        <ul class="noticed__list" role="list">
-          <li class="noticed__item" data-i18n="noticed.item1">стесняется говорить</li>
-          <li class="noticed__item" data-i18n="noticed.item2">теряется в новой компании</li>
-          <li class="noticed__item" data-i18n="noticed.item3">не может сформулировать мысль</li>
-          <li class="noticed__item" data-i18n="noticed.item4">или, наоборот, слишком эмоционален и не справляется с этим</li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="section section--white about" id="about">
-      <div class="about__layout animate-on-scroll">
-        <div class="about__image-wrap">
-          <div class="placeholder-image placeholder-image--about" role="img" aria-label="Children in creative activities">
-            <span>About Photo</span>
+    <!-- ========== INFO STRIP — key facts at a glance ========== -->
+    <section class="info-strip" aria-label="Key facts">
+      <div class="container">
+        <div class="info-strip__items">
+          <div class="info-strip__item">
+            <span class="info-strip__icon" aria-hidden="true">&#128197;</span>
+            <span class="info-strip__label" data-i18n="strip.day">Суббота</span>
+          </div>
+          <div class="info-strip__item">
+            <span class="info-strip__icon" aria-hidden="true">&#128205;</span>
+            <span class="info-strip__label" data-i18n="strip.location">Нетания</span>
+          </div>
+          <div class="info-strip__item">
+            <span class="info-strip__icon" aria-hidden="true">&#128101;</span>
+            <span class="info-strip__label" data-i18n="strip.groups">Маленькие группы</span>
+          </div>
+          <div class="info-strip__item">
+            <span class="info-strip__icon" aria-hidden="true">&#127912;</span>
+            <span class="info-strip__label" data-i18n="strip.ages">Возраст 4–12</span>
           </div>
         </div>
-        <div class="about__content">
-          <h2 class="section__title" data-i18n="about.title">О нас</h2>
-          <p class="about__lead" data-i18n="about.lead">Eventus Kids — это тёплое и дружеское пространство, где ребёнка не «учат», а помогают раскрыть его сильные стороны.</p>
-          <ul class="about__benefits" role="list">
-            <li data-i18n="about.benefit1">начинает слышать себя и других</li>
-            <li data-i18n="about.benefit2">проявляет себя в разных видах творчества</li>
-            <li data-i18n="about.benefit3">чувствует уверенность и принятие</li>
-          </ul>
-          <p class="about__closing" data-i18n="about.closing">У нас нет потока и случайных занятий. Каждое занятие — это продуманная структура, в которой ребёнок постепенно раскрывается.</p>
+      </div>
+    </section>
+
+    <!-- ========== PROGRAMS — card grid ========== -->
+    <section class="section programs" id="programs">
+      <div class="container">
+        <h2 class="section__title" data-i18n="programs.title">Три направления — один процесс</h2>
+        <p class="section__subtitle" data-i18n="programs.subtitle">Мы соединяем театр, музыку и арт в единый процесс, чтобы ребёнок развивался целиком</p>
+
+        <div class="programs__grid">
+          <article class="program-card animate-on-scroll">
+            <div class="program-card__image placeholder-image placeholder-image--theater" role="img" aria-label="Theater">
+              <span>Theater</span>
+            </div>
+            <div class="program-card__body">
+              <h3 class="program-card__title" data-i18n="program.theater.title">Театр</h3>
+              <p class="program-card__text" data-i18n="program.theater.desc">Раскрепощение, общение, работа с речью, вниманием и эмоциями</p>
+            </div>
+          </article>
+
+          <article class="program-card animate-on-scroll">
+            <div class="program-card__image placeholder-image placeholder-image--music" role="img" aria-label="Music">
+              <span>Music</span>
+            </div>
+            <div class="program-card__body">
+              <h3 class="program-card__title" data-i18n="program.music.title">Музыка</h3>
+              <p class="program-card__text" data-i18n="program.music.desc">Голос, слух, ноты — и мини-представления, где ребёнок проживает музыку</p>
+            </div>
+          </article>
+
+          <article class="program-card animate-on-scroll">
+            <div class="program-card__image placeholder-image placeholder-image--art" role="img" aria-label="Art">
+              <span>Art</span>
+            </div>
+            <div class="program-card__body">
+              <h3 class="program-card__title" data-i18n="program.art.title">Декоративное искусство</h3>
+              <p class="program-card__text" data-i18n="program.art.desc">Ребёнок выражает себя, рассказывает свою историю через прикладное творчество</p>
+            </div>
+          </article>
+        </div>
+
+        <div class="programs__cta animate-on-scroll">
+          <a href="#register" class="btn btn--primary" data-i18n="programs.cta">Попробовать бесплатно</a>
         </div>
       </div>
     </section>
 
-    <!-- How Sessions Work Section -->
-    <section class="section section--cream sessions" id="sessions">
-      <div class="container container--narrow animate-on-scroll">
-        <h2 class="section__title" data-i18n="sessions.title">Как устроены занятия</h2>
-        <p data-i18n="sessions.p1">Мы работаем в трёх направлениях: театр, музыка и декоративное искусство.</p>
-        <p data-i18n="sessions.p2">Они не существуют отдельно. Мы соединяем их в одном процессе, чтобы ребёнок проживал опыт целиком.</p>
-        <p data-i18n="sessions.p3">Например: то, что ребёнок почувствовал на театральных занятиях, он может выразить через голос на музыке или воплотить в творческой работе на уроке арта.</p>
-        <p data-i18n="sessions.p4">Это даёт более глубокий результат, чем отдельные кружки.</p>
-
-        <div class="sessions__triad">
-          <span class="sessions__discipline" data-i18n="sessions.theater">Театр</span>
-          <span class="sessions__connector" aria-hidden="true"></span>
-          <span class="sessions__discipline" data-i18n="sessions.music">Музыка</span>
-          <span class="sessions__connector" aria-hidden="true"></span>
-          <span class="sessions__discipline" data-i18n="sessions.art">Арт</span>
-        </div>
-      </div>
-      <div class="sessions__image-full animate-on-scroll">
-        <div class="placeholder-image placeholder-image--sessions" role="img" aria-label="Session in action">
-          <span>Session Photo</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- What Your Child Gains Section -->
-    <section class="section section--white gains" id="gains">
-      <div class="container container--narrow animate-on-scroll">
-        <h2 class="section__title" data-i18n="gains.title">Что получает ребёнок</h2>
-        <p class="gains__lead" data-i18n="gains.lead">Результат — не в поделке или выученной песне.</p>
-        <ul class="gains__list" role="list">
-          <li data-i18n="gains.item1">начинает свободнее говорить</li>
-          <li data-i18n="gains.item2">учится формулировать мысли</li>
-          <li data-i18n="gains.item3">перестаёт бояться проявляться</li>
-          <li data-i18n="gains.item4">лучше понимает свои эмоции</li>
-          <li data-i18n="gains.item5">учится слышать других</li>
-        </ul>
-        <p class="gains__highlight" data-i18n="gains.highlight">И самое важное — появляется ощущение: «я могу»</p>
-      </div>
-    </section>
-
-    <!-- Programs Section -->
-    <section class="section section--cream programs" id="programs">
-      <h2 class="sr-only" data-i18n="programs.heading">Наши направления</h2>
-
-      <!-- Theater -->
-      <article class="program program--left animate-on-scroll">
-        <div class="program__image-wrap">
-          <div class="placeholder-image placeholder-image--theater" role="img" aria-label="Theater activities">
-            <span>Theater Photo</span>
+    <!-- ========== OUTCOMES — what kids gain ========== -->
+    <section class="section section--alt outcomes" id="outcomes">
+      <div class="container">
+        <h2 class="section__title" data-i18n="outcomes.title">Что получает ребёнок</h2>
+        <div class="outcomes__grid">
+          <div class="outcome animate-on-scroll">
+            <span class="outcome__icon" aria-hidden="true">&#128172;</span>
+            <p class="outcome__text" data-i18n="outcomes.item1">Начинает свободнее говорить</p>
+          </div>
+          <div class="outcome animate-on-scroll">
+            <span class="outcome__icon" aria-hidden="true">&#128161;</span>
+            <p class="outcome__text" data-i18n="outcomes.item2">Учится формулировать мысли</p>
+          </div>
+          <div class="outcome animate-on-scroll">
+            <span class="outcome__icon" aria-hidden="true">&#11088;</span>
+            <p class="outcome__text" data-i18n="outcomes.item3">Перестаёт бояться проявляться</p>
+          </div>
+          <div class="outcome animate-on-scroll">
+            <span class="outcome__icon" aria-hidden="true">&#128150;</span>
+            <p class="outcome__text" data-i18n="outcomes.item4">Лучше понимает свои эмоции</p>
+          </div>
+          <div class="outcome animate-on-scroll">
+            <span class="outcome__icon" aria-hidden="true">&#128066;</span>
+            <p class="outcome__text" data-i18n="outcomes.item5">Учится слышать других</p>
+          </div>
+          <div class="outcome outcome--highlight animate-on-scroll">
+            <span class="outcome__icon" aria-hidden="true">&#128170;</span>
+            <p class="outcome__text" data-i18n="outcomes.item6">Появляется ощущение: «я могу»</p>
           </div>
         </div>
-        <div class="program__content">
-          <h3 class="program__title" data-i18n="program.theater.title">Театр</h3>
-          <p data-i18n="program.theater.p1">Через театральные упражнения ребёнок: раскрепощается, учится общаться, снимает внутренние зажимы.</p>
-          <p data-i18n="program.theater.p2">Мы работаем с речью, вниманием и эмоциями. Учимся говорить, слушать и понимать.</p>
-        </div>
-      </article>
-
-      <!-- Music -->
-      <article class="program program--right animate-on-scroll">
-        <div class="program__image-wrap">
-          <div class="placeholder-image placeholder-image--music" role="img" aria-label="Music activities">
-            <span>Music Photo</span>
-          </div>
-        </div>
-        <div class="program__content">
-          <h3 class="program__title" data-i18n="program.music.title">Музыка</h3>
-          <p data-i18n="program.music.p1">Мы: развиваем голос, учимся петь, знакомимся с нотами, тренируем слух.</p>
-          <p data-i18n="program.music.p2">Но главное — мы делаем из песен мини-представления, где ребёнок проживает музыку, а не просто повторяет её.</p>
-        </div>
-      </article>
-
-      <!-- Decorative Arts -->
-      <article class="program program--left animate-on-scroll">
-        <div class="program__image-wrap">
-          <div class="placeholder-image placeholder-image--art" role="img" aria-label="Art activities">
-            <span>Art Photo</span>
-          </div>
-        </div>
-        <div class="program__content">
-          <h3 class="program__title" data-i18n="program.art.title">Декоративное искусство</h3>
-          <p data-i18n="program.art.p1">Это не «поделки ради результата».</p>
-          <p data-i18n="program.art.p2">Через прикладное творчество ребёнок: выражает себя, рассказывает свою историю, осмысляет свой опыт.</p>
-          <p data-i18n="program.art.p3">Работы получаются живыми и личными — и это чувствуется.</p>
-        </div>
-      </article>
+      </div>
     </section>
 
-    <!-- Teachers Section -->
-    <section class="section section--warm-gray teachers" id="teachers">
-      <div class="container animate-on-scroll">
+    <!-- ========== ABOUT — short and warm ========== -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="about__layout animate-on-scroll">
+          <div class="about__image">
+            <div class="placeholder-image placeholder-image--about" role="img" aria-label="Children in creative activities">
+              <span>About Photo</span>
+            </div>
+          </div>
+          <div class="about__content">
+            <h2 class="section__title section__title--left" data-i18n="about.title">Тёплое пространство, где ребёнок раскрывается</h2>
+            <p data-i18n="about.p1">Eventus Kids — это не кружок и не школа. Это среда, где ребёнку спокойно, понятно и интересно.</p>
+            <p data-i18n="about.p2">Каждое занятие — продуманная структура. Нет потока и случайных активностей. Маленькие группы, внимание к каждому.</p>
+            <p data-i18n="about.p3">Мы помогаем раскрыть сильные стороны ребёнка через три вида творчества, объединённых в один процесс.</p>
+            <a href="#register" class="btn btn--primary" data-i18n="about.cta">Записаться</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== REVIEWS — trust signals ========== -->
+    <section class="section section--alt reviews" id="reviews">
+      <div class="container">
+        <h2 class="section__title" data-i18n="reviews.title">Что говорят родители</h2>
+        <div class="reviews__grid">
+          <blockquote class="review-card animate-on-scroll">
+            <p class="review-card__text" data-i18n="review.1">Самое ценное — что ребёнок стал спокойнее и начал по-другому взаимодействовать с другими детьми. Мы заметили это уже через несколько занятий. И главное — он хочет сюда возвращаться.</p>
+          </blockquote>
+          <blockquote class="review-card animate-on-scroll">
+            <p class="review-card__text" data-i18n="review.2">Мне важно, что здесь не просто занятия. Примерно через месяц я увидела, что ребёнок стал более открытым.</p>
+          </blockquote>
+          <blockquote class="review-card animate-on-scroll">
+            <p class="review-card__text" data-i18n="review.3">Я просто вижу, что ребёнку здесь хорошо. Он с радостью ждёт каждую субботу — и это для меня главный показатель.</p>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TEACHERS ========== -->
+    <section class="section teachers" id="teachers">
+      <div class="container">
         <h2 class="section__title" data-i18n="teachers.title">Наши педагоги</h2>
         <div class="teachers__grid">
-          <article class="teacher">
+          <article class="teacher animate-on-scroll">
             <div class="teacher__photo placeholder-image placeholder-image--teacher" role="img" aria-label="Teacher 1">
               <span>Teacher 1</span>
             </div>
             <h3 class="teacher__name" data-i18n="teacher.1.name">TBD</h3>
             <p class="teacher__role" data-i18n="teacher.1.role">TBD</p>
-            <p class="teacher__bio" data-i18n="teacher.1.bio">TBD</p>
           </article>
-          <article class="teacher">
+          <article class="teacher animate-on-scroll">
             <div class="teacher__photo placeholder-image placeholder-image--teacher" role="img" aria-label="Teacher 2">
               <span>Teacher 2</span>
             </div>
             <h3 class="teacher__name" data-i18n="teacher.2.name">TBD</h3>
             <p class="teacher__role" data-i18n="teacher.2.role">TBD</p>
-            <p class="teacher__bio" data-i18n="teacher.2.bio">TBD</p>
           </article>
-          <article class="teacher">
+          <article class="teacher animate-on-scroll">
             <div class="teacher__photo placeholder-image placeholder-image--teacher" role="img" aria-label="Teacher 3">
               <span>Teacher 3</span>
             </div>
             <h3 class="teacher__name" data-i18n="teacher.3.name">TBD</h3>
             <p class="teacher__role" data-i18n="teacher.3.role">TBD</p>
-            <p class="teacher__bio" data-i18n="teacher.3.bio">TBD</p>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- Open Sessions Section -->
-    <section class="section open-sessions" id="open-sessions">
-      <div class="open-sessions__bg placeholder-image placeholder-image--open-session">
-        <span>Open Session Photo</span>
-      </div>
-      <div class="open-sessions__overlay">
-        <div class="container container--narrow animate-on-scroll">
-          <h2 class="section__title section__title--light" data-i18n="open.title">Открытые занятия</h2>
-          <p class="open-sessions__text" data-i18n="open.p1">Мы регулярно проводим открытые занятия.</p>
-          <p class="open-sessions__text" data-i18n="open.p2">Родители получают возможность: увидеть процесс, понять, как развивается ребёнок, провести время вместе.</p>
-          <p class="open-sessions__text" data-i18n="open.p3">Это не показательные выступления, а естественный результат нашей совместной работы.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Why Parents Choose Us -->
-    <section class="section section--cream why-us" id="why-us">
-      <div class="container container--narrow animate-on-scroll">
-        <h2 class="section__title" data-i18n="why.title">Почему выбирают нас</h2>
-        <ul class="why-us__list" role="list">
-          <li data-i18n="why.item1">маленькие группы и внимание к каждому</li>
-          <li data-i18n="why.item2">живая среда без давления</li>
-          <li data-i18n="why.item3">развитие речи, уверенности и эмоционального интеллекта</li>
-          <li data-i18n="why.item4">видимый результат</li>
-          <li data-i18n="why.item5">ребёнок хочет возвращаться</li>
-        </ul>
-        <p class="why-us__closing" data-i18n="why.closing">Это не кружок. Это среда развития.</p>
-      </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section class="section section--dark testimonials" id="reviews">
-      <div class="container animate-on-scroll">
-        <h2 class="section__title section__title--light" data-i18n="reviews.title">Отзывы родителей</h2>
-        <div class="testimonials__carousel" aria-live="polite" aria-roledescription="carousel" aria-label="Parent testimonials">
-          <blockquote class="testimonial testimonial--active" data-index="0">
-            <p class="testimonial__quote" data-i18n="review.1">&laquo;Самое ценное — что ребёнок стал спокойнее и начал по-другому взаимодействовать с другими детьми. Мы заметили это уже через несколько занятий. И главное — он хочет сюда возвращаться.&raquo;</p>
-          </blockquote>
-          <blockquote class="testimonial" data-index="1">
-            <p class="testimonial__quote" data-i18n="review.2">&laquo;Мне важно, что здесь не просто занятия. Примерно через месяц я увидела, что ребёнок стал более открытым.&raquo;</p>
-          </blockquote>
-          <blockquote class="testimonial" data-index="2">
-            <p class="testimonial__quote" data-i18n="review.3">&laquo;Я просто вижу, что ребёнку здесь хорошо. Он с радостью ждёт каждую субботу — и это для меня главный показатель.&raquo;</p>
-          </blockquote>
-        </div>
-        <div class="testimonials__controls">
-          <button class="testimonials__prev" type="button" aria-label="Previous testimonial">&larr;</button>
-          <div class="testimonials__dots" role="tablist" aria-label="Testimonial navigation">
-            <button class="testimonials__dot testimonials__dot--active" type="button" role="tab" aria-selected="true" aria-label="Testimonial 1" data-index="0"></button>
-            <button class="testimonials__dot" type="button" role="tab" aria-selected="false" aria-label="Testimonial 2" data-index="1"></button>
-            <button class="testimonials__dot" type="button" role="tab" aria-selected="false" aria-label="Testimonial 3" data-index="2"></button>
+    <!-- ========== SCHEDULE & LOCATION ========== -->
+    <section class="section section--alt schedule" id="schedule">
+      <div class="container">
+        <h2 class="section__title" data-i18n="schedule.title">Расписание и адрес</h2>
+        <div class="schedule__layout animate-on-scroll">
+          <div class="schedule__info">
+            <div class="schedule__cards">
+              <div class="schedule__card">
+                <span class="schedule__card-label" data-i18n="schedule.slot1Label">Утренняя группа</span>
+                <span class="schedule__card-time" data-i18n="schedule.slot1">10:00–13:00</span>
+              </div>
+              <div class="schedule__card">
+                <span class="schedule__card-label" data-i18n="schedule.slot2Label">Дневная группа</span>
+                <span class="schedule__card-time" data-i18n="schedule.slot2">13:00–16:00</span>
+              </div>
+            </div>
+            <address class="schedule__address">
+              <p><strong data-i18n="schedule.dayLabel">День:</strong> <span data-i18n="schedule.day">Суббота</span></p>
+              <p><strong data-i18n="schedule.addressLabel">Адрес:</strong> <span data-i18n="schedule.address">Нетания, Смилянски, 10</span></p>
+            </address>
+            <p class="schedule__note" data-i18n="schedule.note">Мы работаем в субботу — в день, когда у большинства родителей нет удобных детских занятий.</p>
+            <a href="#register" class="btn btn--primary" data-i18n="schedule.cta">Записаться</a>
           </div>
-          <button class="testimonials__next" type="button" aria-label="Next testimonial">&rarr;</button>
+          <div class="schedule__map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3368.5!2d34.853!3d32.321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzLCsDE5JzE1LjYiTiAzNMKwNTEnMTAuOCJF!5e0!3m2!1sen!2sil!4v1"
+              width="100%"
+              height="300"
+              style="border:0; border-radius: 12px;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Eventus Kids location on Google Maps"
+            ></iframe>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Schedule & Location Section -->
-    <section class="section section--white schedule" id="schedule">
-      <div class="schedule__layout animate-on-scroll">
-        <div class="schedule__info">
-          <h2 class="section__title" data-i18n="schedule.title">Расписание и адрес</h2>
-          <address class="schedule__address">
-            <p class="schedule__detail">
-              <strong data-i18n="schedule.addressLabel">Адрес:</strong>
-              <span data-i18n="schedule.address">Нетания, Смилянски, 10</span>
-            </p>
-            <p class="schedule__detail">
-              <strong data-i18n="schedule.dayLabel">День:</strong>
-              <span data-i18n="schedule.day">Суббота</span>
-            </p>
-            <p class="schedule__detail">
-              <strong data-i18n="schedule.slot1Label">Утренняя группа:</strong>
-              <span data-i18n="schedule.slot1">10:00–13:00</span>
-            </p>
-            <p class="schedule__detail">
-              <strong data-i18n="schedule.slot2Label">Дневная группа:</strong>
-              <span data-i18n="schedule.slot2">13:00–16:00</span>
-            </p>
-          </address>
-          <p class="schedule__note" data-i18n="schedule.note">И главное — мы работаем в субботу. В день, когда у большинства родителей нет удобных детских занятий.</p>
-          <p class="schedule__cta-text" data-i18n="schedule.ctaText">Проведите субботу с пользой и удовольствием — для ребёнка и для себя.</p>
-        </div>
-        <div class="schedule__map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3368.5!2d34.853!3d32.321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzLCsDE5JzE1LjYiTiAzNMKwNTEnMTAuOCJF!5e0!3m2!1sen!2sil!4v1"
-            width="100%"
-            height="400"
-            style="border:0; border-radius: 8px;"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            title="Eventus Kids location on Google Maps"
-          ></iframe>
-        </div>
-      </div>
-    </section>
-
-    <!-- Registration Form Section -->
-    <section class="section section--cream register" id="register">
-      <div class="container container--form animate-on-scroll">
+    <!-- ========== REGISTRATION FORM ========== -->
+    <section class="section register" id="register">
+      <div class="container container--form">
         <h2 class="section__title" data-i18n="register.title">Записаться</h2>
-        <p class="register__subtitle" data-i18n="register.subtitle">Мы свяжемся с вами и подберём группу</p>
-        <p class="register__note" data-i18n="register.note1">Количество мест в группах ограничено.</p>
-        <p class="register__note" data-i18n="register.note2">Мы не увеличиваем группы, потому что нам важно внимание к каждому ребёнку.</p>
+        <p class="register__subtitle" data-i18n="register.subtitle">Оставьте заявку — мы свяжемся и подберём группу</p>
 
         <form class="form" id="registration-form" action="https://api.web3forms.com/submit" method="POST" novalidate>
           <input type="hidden" name="access_key" value="3452f12f-84d0-4b21-96bc-89ee63287c1d">
           <input type="hidden" name="subject" value="New registration from Eventus Kids website">
           <input type="hidden" name="from_name" value="Eventus Kids Website">
-          <!-- Honeypot -->
           <div class="form__honeypot" aria-hidden="true">
             <label for="botcheck">Do not fill this</label>
             <input type="checkbox" name="botcheck" id="botcheck" tabindex="-1" autocomplete="off">
           </div>
 
-          <div class="form__group">
-            <label for="parent-name" class="form__label" data-i18n="form.parentName">Имя родителя</label>
-            <input type="text" id="parent-name" name="parent_name" class="form__input" required autocomplete="name" data-i18n-placeholder="form.parentNamePh" placeholder="Ваше имя">
-            <span class="form__error" data-error-key="form.parentNameError" aria-live="polite"></span>
+          <div class="form__row">
+            <div class="form__group">
+              <label for="parent-name" class="form__label" data-i18n="form.parentName">Имя родителя</label>
+              <input type="text" id="parent-name" name="parent_name" class="form__input" required autocomplete="name" data-i18n-placeholder="form.parentNamePh" placeholder="Ваше имя">
+              <span class="form__error" data-error-key="form.parentNameError" aria-live="polite"></span>
+            </div>
+            <div class="form__group">
+              <label for="phone" class="form__label" data-i18n="form.phone">Телефон</label>
+              <input type="tel" id="phone" name="phone" class="form__input" required autocomplete="tel" data-i18n-placeholder="form.phonePh" placeholder="+972...">
+              <span class="form__error" data-error-key="form.phoneError" aria-live="polite"></span>
+            </div>
           </div>
 
-          <div class="form__group">
-            <label for="phone" class="form__label" data-i18n="form.phone">Телефон</label>
-            <input type="tel" id="phone" name="phone" class="form__input" required autocomplete="tel" data-i18n-placeholder="form.phonePh" placeholder="+972...">
-            <span class="form__error" data-error-key="form.phoneError" aria-live="polite"></span>
-          </div>
-
-          <div class="form__group">
-            <label for="child-name" class="form__label" data-i18n="form.childName">Имя ребёнка</label>
-            <input type="text" id="child-name" name="child_name" class="form__input" required data-i18n-placeholder="form.childNamePh" placeholder="Имя ребёнка">
-            <span class="form__error" data-error-key="form.childNameError" aria-live="polite"></span>
-          </div>
-
-          <div class="form__group">
-            <label for="child-age" class="form__label" data-i18n="form.childAge">Возраст ребёнка</label>
-            <input type="number" id="child-age" name="child_age" class="form__input" required min="3" max="16" data-i18n-placeholder="form.childAgePh" placeholder="Возраст">
-            <span class="form__error" data-error-key="form.childAgeError" aria-live="polite"></span>
+          <div class="form__row">
+            <div class="form__group">
+              <label for="child-name" class="form__label" data-i18n="form.childName">Имя ребёнка</label>
+              <input type="text" id="child-name" name="child_name" class="form__input" required data-i18n-placeholder="form.childNamePh" placeholder="Имя ребёнка">
+              <span class="form__error" data-error-key="form.childNameError" aria-live="polite"></span>
+            </div>
+            <div class="form__group">
+              <label for="child-age" class="form__label" data-i18n="form.childAge">Возраст ребёнка</label>
+              <input type="number" id="child-age" name="child_age" class="form__input" required min="3" max="16" data-i18n-placeholder="form.childAgePh" placeholder="Возраст">
+              <span class="form__error" data-error-key="form.childAgeError" aria-live="polite"></span>
+            </div>
           </div>
 
           <fieldset class="form__group form__fieldset">
@@ -435,13 +379,7 @@
             <span class="form__error" data-error-key="form.timeSlotError" aria-live="polite"></span>
           </fieldset>
 
-          <div class="form__group">
-            <label for="message" class="form__label" data-i18n="form.message">Сообщение (необязательно)</label>
-            <textarea id="message" name="message" class="form__input form__textarea" rows="3" data-i18n-placeholder="form.messagePh" placeholder="Комментарий или вопрос"></textarea>
-          </div>
-
           <div class="form__status" id="form-status" aria-live="polite"></div>
-
           <button type="submit" class="btn btn--primary btn--full form__submit" data-i18n="form.submit">Отправить заявку</button>
         </form>
 
@@ -464,21 +402,22 @@
 
   <!-- Footer -->
   <footer class="footer" id="footer">
-    <div class="container">
-      <div class="footer__logo">
+    <div class="container footer__layout">
+      <div class="footer__brand">
         <span class="footer__logo-text">Eventus <span class="footer__logo-kids">Kids</span></span>
+        <p class="footer__tagline" data-i18n="footer.tagline">Креативный детский клуб в Нетании</p>
       </div>
       <div class="footer__contact">
-        <a href="tel:+972XXXXXXXX" class="footer__link" data-i18n="footer.phone">+972-XX-XXX-XXXX</a>
+        <a href="tel:+972557704007" class="footer__link">+972 55-770-4007</a>
         <a href="mailto:info@eventus-kids.com" class="footer__link">info@eventus-kids.com</a>
         <a href="https://wa.me/972557704007" class="footer__link" target="_blank" rel="noopener noreferrer">WhatsApp</a>
       </div>
       <div class="footer__social">
-        <a href="#" class="footer__social-link" aria-label="Instagram" data-i18n-aria="footer.instagram">Instagram</a>
-        <a href="#" class="footer__social-link" aria-label="Facebook" data-i18n-aria="footer.facebook">Facebook</a>
+        <a href="#" class="footer__social-link" aria-label="Instagram">Instagram</a>
+        <a href="#" class="footer__social-link" aria-label="Facebook">Facebook</a>
       </div>
-      <p class="footer__copy">&copy; 2026 Eventus Kids. <span data-i18n="footer.rights">Все права защищены.</span></p>
     </div>
+    <p class="footer__copy">&copy; 2026 Eventus Kids. <span data-i18n="footer.rights">Все права защищены.</span></p>
   </footer>
 
   <script src="js/main.js" defer></script>
