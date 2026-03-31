@@ -28,8 +28,9 @@ h1, h2, h3 { color: #1B3A6B; font-weight: 800; line-height: 1.25; }
   border-bottom: 1px solid #eee;
 }
 .nav { display: flex; align-items: center; justify-content: space-between; max-width: 1060px; margin: 0 auto; padding: 0 1.25rem; height: 72px; }
-.nav__logo { z-index: 101; display: flex; align-items: center; }
-.nav__logo img { height: 52px; width: auto; }
+.nav__logo { z-index: 101; display: flex; align-items: center; gap: .6rem; }
+.nav__logo img { height: 48px; width: auto; }
+.nav__logo-name { font-size: 1.1rem; font-weight: 800; color: #1B3A6B; }
 .nav__links { display: none; gap: 1.75rem; align-items: center; }
 .nav__link { font-size: .875rem; font-weight: 700; color: #555; transition: color .15s; }
 .nav__link:hover { color: #1B3A6B; }
