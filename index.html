@@ -47,8 +47,8 @@
         <span class="nav__logo-name">Eventus Kids</span>
       </a>
       <ul class="nav__links" id="nav-links" role="list">
-        <li><a href="#programs" class="nav__link" data-i18n="nav.programs">Направления</a></li>
         <li><a href="#about" class="nav__link" data-i18n="nav.about">О нас</a></li>
+        <li><a href="#programs" class="nav__link" data-i18n="nav.programs">Направления</a></li>
         <li><a href="#reviews" class="nav__link" data-i18n="nav.reviews">Отзывы</a></li>
         <li><a href="#schedule" class="nav__link" data-i18n="nav.schedule">Расписание</a></li>
         <li><a href="#register" class="nav__link nav__link--cta" data-i18n="nav.register">Записаться</a></li>
@@ -70,12 +70,16 @@
 
   <main id="main">
 
+    <!-- HERO -->
     <section class="hero">
       <img src="images/hero.jpg" alt="" class="hero__bg" aria-hidden="true">
       <div class="hero__overlay"></div>
       <div class="hero__inner">
-        <h1 class="hero__title" data-i18n="hero.title">Детский клуб в Нетании</h1>
-        <p class="hero__sub" data-i18n="hero.subtitle">Театр, музыка и творчество. Речь, уверенность, эмоции. По субботам, в маленьких группах.</p>
+        <h1 class="hero__title" data-i18n="hero.title">Креативный детский клуб в Нетании</h1>
+        <p class="hero__sub" data-i18n="hero.sub">Ребёнок становится увереннее, учится выражать себя и лучше понимать других</p>
+        <p class="hero__desc" data-i18n="hero.desc">В Eventus Kids мы развиваем речь, эмоциональный интеллект и внутреннюю опору через театр, музыку и творчество.</p>
+        <p class="hero__tagline" data-i18n="hero.tagline">Не кружок. Среда, в которой ребёнок раскрывается.</p>
+        <p class="hero__location" data-i18n="hero.location">Нетания | Суббота | Маленькие группы</p>
         <div class="hero__btns">
           <a href="#register" class="btn btn--primary btn--lg" data-i18n="hero.cta">Записаться</a>
           <a href="https://wa.me/972557704007" class="btn btn--white btn--lg" target="_blank" rel="noopener noreferrer" data-i18n="hero.whatsapp">WhatsApp</a>
@@ -83,112 +87,189 @@
       </div>
     </section>
 
-    <section class="info-strip" aria-label="Key info">
-      <div class="wrap">
-        <div class="info-strip__row">
-          <span data-i18n="strip.day">Суббота</span>
-          <span class="info-strip__dot" aria-hidden="true"></span>
-          <span data-i18n="strip.location">Нетания</span>
-          <span class="info-strip__dot" aria-hidden="true"></span>
-          <span data-i18n="strip.groups">Маленькие группы</span>
-          <span class="info-strip__dot" aria-hidden="true"></span>
-          <span data-i18n="strip.ages">Возраст 4–12</span>
-        </div>
+    <!-- ВАЖНО -->
+    <section class="sec" id="intro">
+      <div class="wrap wrap--md anim">
+        <h2 class="sec__title sec__title--center" data-i18n="intro.title">Важно</h2>
+        <p class="intro__text" data-i18n="intro.text">Мы создаём пространство, в котором ребёнку спокойно, понятно и интересно. Где он может быть собой и постепенно раскрывать себя.</p>
       </div>
     </section>
 
-    <section class="sec" id="programs">
-      <div class="wrap">
-        <h2 class="sec__title sec__title--center" data-i18n="programs.title">Чем мы занимаемся</h2>
-        <p class="sec__sub sec__sub--center" data-i18n="programs.subtitle">Театр, музыка и арт работают вместе. Не три отдельных кружка, а один связный процесс.</p>
-        <div class="programs__grid">
-          <article class="pcard anim">
-            <img class="pcard__img" src="images/theater.jpg" alt="Theater class" loading="lazy">
-            <div class="pcard__body">
-              <h3 class="pcard__title" data-i18n="program.theater.title">Театр</h3>
-              <p class="pcard__text" data-i18n="program.theater.desc">Ребёнок раскрепощается, учится общаться и выражать свои мысли через сценические упражнения.</p>
-            </div>
-          </article>
-          <article class="pcard anim">
-            <img class="pcard__img" src="images/music.jpg" alt="Music class" loading="lazy">
-            <div class="pcard__body">
-              <h3 class="pcard__title" data-i18n="program.music.title">Музыка</h3>
-              <p class="pcard__text" data-i18n="program.music.desc">Голос, слух, ритм. Песни превращаются в мини-спектакли, которые дети проживают, а не просто поют.</p>
-            </div>
-          </article>
-          <article class="pcard anim">
-            <img class="pcard__img" src="images/art.jpg" alt="Art class" loading="lazy">
-            <div class="pcard__body">
-              <h3 class="pcard__title" data-i18n="program.art.title">Декоративное искусство</h3>
-              <p class="pcard__text" data-i18n="program.art.desc">Не поделки по шаблону. Ребёнок рассказывает свою историю через прикладное творчество.</p>
-            </div>
-          </article>
-        </div>
-        <div class="programs__cta anim"><a href="#register" class="btn btn--primary" data-i18n="programs.cta">Записаться</a></div>
+    <!-- ВЫ ЭТО ЗАМЕЧАЛИ? -->
+    <section class="sec sec--gray" id="noticed">
+      <div class="wrap wrap--md anim">
+        <h2 class="sec__title" data-i18n="noticed.title">Вы это замечали?</h2>
+        <p class="noticed__lead" data-i18n="noticed.lead">Ребёнок:</p>
+        <ul class="noticed__list">
+          <li data-i18n="noticed.1">стесняется говорить</li>
+          <li data-i18n="noticed.2">теряется в новой компании</li>
+          <li data-i18n="noticed.3">не может сформулировать мысль</li>
+          <li data-i18n="noticed.4">или, наоборот, слишком эмоционален и не справляется с этим</li>
+        </ul>
       </div>
     </section>
 
-    <section class="sec sec--gray" id="outcomes">
-      <div class="wrap">
-        <h2 class="sec__title" data-i18n="outcomes.title">Что меняется у детей</h2>
-        <div class="outcomes__grid">
-          <div class="oitem anim"><p class="oitem__text" data-i18n="outcomes.item1">Свободнее говорят</p></div>
-          <div class="oitem anim"><p class="oitem__text" data-i18n="outcomes.item2">Могут объяснить, что чувствуют</p></div>
-          <div class="oitem anim"><p class="oitem__text" data-i18n="outcomes.item3">Не боятся выступать</p></div>
-          <div class="oitem anim"><p class="oitem__text" data-i18n="outcomes.item4">Лучше понимают себя и других</p></div>
-          <div class="oitem anim"><p class="oitem__text" data-i18n="outcomes.item5">Умеют слушать</p></div>
-          <div class="oitem oitem--hl anim"><p class="oitem__text" data-i18n="outcomes.item6">Появляется уверенность: «я могу»</p></div>
-        </div>
-      </div>
-    </section>
-
+    <!-- О НАС -->
     <section class="sec" id="about">
       <div class="wrap">
         <div class="about__grid anim">
           <img class="about__img" src="images/about.jpg" alt="Children in creative activities" loading="lazy">
           <div class="about__body">
-            <h2 class="sec__title sec__title--left" data-i18n="about.title">Про нас</h2>
-            <p data-i18n="about.p1">Eventus Kids работает по субботам в Нетании. У нас маленькие группы, знакомые педагоги и спокойная атмосфера.</p>
-            <p data-i18n="about.p2">Занятия построены так, что театр, музыка и арт дополняют друг друга. Ребёнок не прыгает между кружками, а проходит один цельный процесс.</p>
-            <p data-i18n="about.p3">Можно прийти на разовое занятие или взять абонемент.</p>
+            <h2 class="sec__title sec__title--left" data-i18n="about.title">О нас</h2>
+            <p data-i18n="about.p1">Eventus Kids — это тёплое и дружеское пространство, где ребёнка не «учат», а помогают раскрыть его сильные стороны.</p>
+            <p data-i18n="about.lead">У нас ребёнок:</p>
+            <ul class="about__list">
+              <li data-i18n="about.b1">начинает слышать себя и других</li>
+              <li data-i18n="about.b2">проявляет себя в разных видах творчества</li>
+              <li data-i18n="about.b3">чувствует уверенность и принятие</li>
+            </ul>
+            <p data-i18n="about.p2">У нас нет потока и случайных занятий. Каждое занятие — это продуманная структура, в которой ребёнок постепенно раскрывается.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="sec sec--gray" id="reviews">
+    <!-- КАК ПРОХОДЯТ ЗАНЯТИЯ -->
+    <section class="sec sec--gray" id="sessions">
+      <div class="wrap wrap--md anim">
+        <h2 class="sec__title" data-i18n="sessions.title">Как проходят занятия</h2>
+        <p data-i18n="sessions.p1">Мы работаем в трёх направлениях: театр, музыка и декоративное искусство.</p>
+        <p data-i18n="sessions.p2">Они не существуют отдельно. Мы соединяем их в одном процессе, чтобы ребёнок проживал опыт целиком.</p>
+        <p data-i18n="sessions.p3">Например: то, что ребёнок почувствовал на театральных занятиях, он может выразить через голос на музыке или воплотить в творческой работе на уроке арта.</p>
+        <p data-i18n="sessions.p4">Это даёт более глубокий результат, чем отдельные кружки.</p>
+      </div>
+    </section>
+
+    <!-- ЧТО ПОЛУЧАЕТ РЕБЁНОК -->
+    <section class="sec" id="outcomes">
+      <div class="wrap wrap--md anim">
+        <h2 class="sec__title" data-i18n="outcomes.title">Что получает ребёнок</h2>
+        <p class="outcomes__lead" data-i18n="outcomes.lead">Результат — не в поделке или выученной песне.</p>
+        <p data-i18n="outcomes.sublead">Ребёнок:</p>
+        <ul class="check-list">
+          <li data-i18n="outcomes.1">начинает свободнее говорить</li>
+          <li data-i18n="outcomes.2">учится формулировать мысли</li>
+          <li data-i18n="outcomes.3">перестаёт бояться проявляться</li>
+          <li data-i18n="outcomes.4">лучше понимает свои эмоции</li>
+          <li data-i18n="outcomes.5">учится слышать других</li>
+        </ul>
+        <p class="outcomes__highlight" data-i18n="outcomes.highlight">И самое важное — появляется ощущение: «я могу»</p>
+      </div>
+    </section>
+
+    <!-- НАПРАВЛЕНИЯ -->
+    <section class="sec sec--gray" id="programs">
       <div class="wrap">
-        <h2 class="sec__title" data-i18n="reviews.title">Отзывы родителей</h2>
-        <div class="reviews__grid">
-          <blockquote class="rcard anim"><p class="rcard__text" data-i18n="review.1">Самое ценное, что ребёнок стал спокойнее и начал по-другому общаться с другими детьми. Мы заметили это уже через несколько занятий. И главное, он сам хочет сюда возвращаться.</p></blockquote>
-          <blockquote class="rcard anim"><p class="rcard__text" data-i18n="review.2">Мне важно, что здесь не просто занятия. Примерно через месяц я увидела, что ребёнок стал более открытым.</p></blockquote>
-          <blockquote class="rcard anim"><p class="rcard__text" data-i18n="review.3">Я просто вижу, что ребёнку здесь хорошо. Он с радостью ждёт каждую субботу, и для меня это главный показатель.</p></blockquote>
+        <h2 class="sec__title sec__title--center" data-i18n="programs.title">Направления</h2>
+
+        <div class="program anim">
+          <img class="program__img" src="images/theater.jpg" alt="Theater" loading="lazy">
+          <div class="program__body">
+            <h3 class="program__title" data-i18n="prog.theater.title">Театр</h3>
+            <p data-i18n="prog.theater.p1">Через театральные упражнения ребёнок:</p>
+            <ul class="check-list">
+              <li data-i18n="prog.theater.b1">раскрепощается</li>
+              <li data-i18n="prog.theater.b2">учится общаться</li>
+              <li data-i18n="prog.theater.b3">снимает внутренние зажимы</li>
+            </ul>
+            <p data-i18n="prog.theater.p2">Мы работаем с речью, вниманием и эмоциями. Учимся говорить, слушать и понимать.</p>
+          </div>
+        </div>
+
+        <div class="program program--reverse anim">
+          <img class="program__img" src="images/music.jpg" alt="Music" loading="lazy">
+          <div class="program__body">
+            <h3 class="program__title" data-i18n="prog.music.title">Музыка</h3>
+            <p data-i18n="prog.music.lead">Мы:</p>
+            <ul class="check-list">
+              <li data-i18n="prog.music.b1">развиваем голос</li>
+              <li data-i18n="prog.music.b2">учимся петь</li>
+              <li data-i18n="prog.music.b3">знакомимся с нотами</li>
+              <li data-i18n="prog.music.b4">тренируем слух</li>
+            </ul>
+            <p data-i18n="prog.music.p1">Но главное — мы делаем из песен мини-представления, где ребёнок проживает музыку, а не просто повторяет её.</p>
+          </div>
+        </div>
+
+        <div class="program anim">
+          <img class="program__img" src="images/art.jpg" alt="Art" loading="lazy">
+          <div class="program__body">
+            <h3 class="program__title" data-i18n="prog.art.title">Декоративное искусство</h3>
+            <p data-i18n="prog.art.p1">Это не «поделки ради результата».</p>
+            <p data-i18n="prog.art.lead">Через прикладное творчество ребёнок:</p>
+            <ul class="check-list">
+              <li data-i18n="prog.art.b1">выражает себя</li>
+              <li data-i18n="prog.art.b2">рассказывает свою историю</li>
+              <li data-i18n="prog.art.b3">осмысляет свой опыт</li>
+            </ul>
+            <p data-i18n="prog.art.p2">Работы получаются живыми и личными — и это чувствуется.</p>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Teachers section hidden until real info is provided -->
+    <!-- ОТКРЫТЫЕ ЗАНЯТИЯ -->
+    <section class="sec" id="open">
+      <div class="wrap wrap--md anim">
+        <h2 class="sec__title" data-i18n="open.title">Открытые занятия</h2>
+        <p data-i18n="open.p1">Мы регулярно проводим открытые занятия.</p>
+        <p data-i18n="open.lead">Родители получают возможность:</p>
+        <ul class="check-list">
+          <li data-i18n="open.b1">увидеть процесс</li>
+          <li data-i18n="open.b2">понять, как развивается ребёнок</li>
+          <li data-i18n="open.b3">провести время вместе</li>
+        </ul>
+        <p data-i18n="open.p2">Это не показательные выступления, а естественный результат нашей совместной работы.</p>
+      </div>
+    </section>
 
-    <section class="sec" id="schedule">
+    <!-- ПОЧЕМУ РОДИТЕЛИ ВЫБИРАЮТ НАС -->
+    <section class="sec sec--gray" id="why">
+      <div class="wrap wrap--md anim">
+        <h2 class="sec__title" data-i18n="why.title">Почему родители выбирают нас?</h2>
+        <ul class="check-list">
+          <li data-i18n="why.1">маленькие группы и внимание к каждому</li>
+          <li data-i18n="why.2">живая среда без давления</li>
+          <li data-i18n="why.3">развитие речи, уверенности и эмоционального интеллекта</li>
+          <li data-i18n="why.4">видимый результат</li>
+          <li data-i18n="why.5">ребёнок хочет возвращаться</li>
+        </ul>
+        <p class="why__closing" data-i18n="why.closing">Это не кружок. Это среда развития.</p>
+      </div>
+    </section>
+
+    <!-- ОТЗЫВЫ -->
+    <section class="sec" id="reviews">
       <div class="wrap">
-        <h2 class="sec__title" data-i18n="schedule.title">Расписание и адрес</h2>
+        <h2 class="sec__title" data-i18n="reviews.title">Отзывы</h2>
+        <div class="reviews__grid">
+          <blockquote class="rcard anim"><p class="rcard__text" data-i18n="review.1">Самое ценное — что ребёнок стал спокойнее и начал по-другому взаимодействовать с другими детьми. Мы заметили это уже через несколько занятий. И главное — он хочет сюда возвращаться.</p></blockquote>
+          <blockquote class="rcard anim"><p class="rcard__text" data-i18n="review.2">Мне важно, что здесь не просто занятия. Примерно через месяц я увидела, что ребёнок стал более открытым.</p></blockquote>
+          <blockquote class="rcard anim"><p class="rcard__text" data-i18n="review.3">Я просто вижу, что ребёнку здесь хорошо. Он с радостью ждёт каждую субботу — и это для меня главный показатель.</p></blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ФОРМАТ / РАСПИСАНИЕ -->
+    <section class="sec sec--gray" id="schedule">
+      <div class="wrap">
+        <h2 class="sec__title" data-i18n="schedule.title">Формат</h2>
         <div class="sched__grid anim">
           <div class="sched__info">
             <div class="sched__slots">
               <div class="sched__slot">
-                <span class="sched__slot-label" data-i18n="schedule.slot1Label">Утренняя группа</span>
                 <span class="sched__slot-time" data-i18n="schedule.slot1">10:00–13:00</span>
               </div>
               <div class="sched__slot">
-                <span class="sched__slot-label" data-i18n="schedule.slot2Label">Дневная группа</span>
                 <span class="sched__slot-time" data-i18n="schedule.slot2">13:00–16:00</span>
               </div>
             </div>
             <address class="sched__details">
-              <p><strong data-i18n="schedule.dayLabel">День:</strong> <span data-i18n="schedule.day">Суббота</span></p>
-              <p><strong data-i18n="schedule.addressLabel">Адрес:</strong> <span data-i18n="schedule.address">Нетания, Смилянски, 10</span></p>
+              <p data-i18n="schedule.address">Нетания, Смилянски, 10</p>
+              <p data-i18n="schedule.day">Суббота</p>
             </address>
-            <p class="sched__note" data-i18n="schedule.note">Работаем по субботам. В день, когда обычно сложно найти хорошие занятия для детей.</p>
+            <p class="sched__note" data-i18n="schedule.note">И главное — мы работаем в субботу. В день, когда у большинства родителей нет удобных детских занятий.</p>
+            <p class="sched__cta" data-i18n="schedule.cta">Проведите субботу с пользой и удовольствием — для ребёнка и для себя.</p>
           </div>
           <div class="sched__map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3368.5!2d34.853!3d32.321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzLCsDE5JzE1LjYiTiAzNMKwNTEnMTAuOCJF!5e0!3m2!1sen!2sil!4v1" width="100%" height="280" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Eventus Kids location"></iframe>
@@ -197,10 +278,13 @@
       </div>
     </section>
 
+    <!-- ЗАПИСЬ -->
     <section class="register" id="register">
       <div class="wrap wrap--sm">
-        <h2 class="sec__title sec__title--center" data-i18n="register.title">Записаться</h2>
-        <p class="register__sub" data-i18n="register.subtitle">Оставьте заявку, и мы свяжемся с вами, чтобы подобрать группу.</p>
+        <h2 class="sec__title sec__title--center" data-i18n="register.title">Запись</h2>
+        <p class="register__note" data-i18n="register.note1">Количество мест в группах ограничено.</p>
+        <p class="register__note" data-i18n="register.note2">Мы не увеличиваем группы, потому что нам важно внимание к каждому ребёнку.</p>
+        <p class="register__sub" data-i18n="register.subtitle">Оставьте заявку — мы свяжемся с вами и подберём группу.</p>
         <form class="form" id="registration-form" action="https://api.web3forms.com/submit" method="POST" novalidate>
           <input type="hidden" name="access_key" value="3452f12f-84d0-4b21-96bc-89ee63287c1d">
           <input type="hidden" name="subject" value="New registration — Eventus Kids">
@@ -239,7 +323,7 @@
             <span class="form__error" data-error-key="form.timeSlotError" aria-live="polite"></span>
           </fieldset>
           <div class="form__status" id="form-status" aria-live="polite"></div>
-          <button type="submit" class="btn btn--primary btn--full form__submit" data-i18n="form.submit">Отправить заявку</button>
+          <button type="submit" class="btn btn--primary btn--full form__submit" data-i18n="form.submit">Записаться</button>
         </form>
         <div class="form__success" id="form-success" hidden>
           <div class="form__success-icon" aria-hidden="true">&#10003;</div>
