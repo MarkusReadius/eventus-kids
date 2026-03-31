@@ -71,12 +71,14 @@
   <main id="main">
 
     <section class="hero">
+      <img src="images/hero.jpg" alt="" class="hero__bg" aria-hidden="true">
+      <div class="hero__overlay"></div>
       <div class="hero__inner">
         <h1 class="hero__title" data-i18n="hero.title">Детский клуб в Нетании</h1>
         <p class="hero__sub" data-i18n="hero.subtitle">Театр, музыка и творчество. Речь, уверенность, эмоции. По субботам, в маленьких группах.</p>
         <div class="hero__btns">
           <a href="#register" class="btn btn--primary btn--lg" data-i18n="hero.cta">Записаться</a>
-          <a href="https://wa.me/972557704007" class="btn btn--ghost btn--lg" target="_blank" rel="noopener noreferrer" data-i18n="hero.whatsapp">WhatsApp</a>
+          <a href="https://wa.me/972557704007" class="btn btn--white btn--lg" target="_blank" rel="noopener noreferrer" data-i18n="hero.whatsapp">WhatsApp</a>
         </div>
       </div>
     </section>
@@ -149,7 +151,6 @@
             <p data-i18n="about.p1">Eventus Kids работает по субботам в Нетании. У нас маленькие группы, знакомые педагоги и спокойная атмосфера.</p>
             <p data-i18n="about.p2">Занятия построены так, что театр, музыка и арт дополняют друг друга. Ребёнок не прыгает между кружками, а проходит один цельный процесс.</p>
             <p data-i18n="about.p3">Можно прийти на разовое занятие или взять абонемент.</p>
-            <a href="#register" class="btn btn--primary" data-i18n="about.cta">Записаться</a>
           </div>
         </div>
       </div>
@@ -168,7 +169,7 @@
 
     <!-- Teachers section hidden until real info is provided -->
 
-    <section class="sec sec--gray" id="schedule">
+    <section class="sec" id="schedule">
       <div class="wrap">
         <h2 class="sec__title" data-i18n="schedule.title">Расписание и адрес</h2>
         <div class="sched__grid anim">
@@ -188,7 +189,6 @@
               <p><strong data-i18n="schedule.addressLabel">Адрес:</strong> <span data-i18n="schedule.address">Нетания, Смилянски, 10</span></p>
             </address>
             <p class="sched__note" data-i18n="schedule.note">Работаем по субботам. В день, когда обычно сложно найти хорошие занятия для детей.</p>
-            <a href="#register" class="btn btn--primary" data-i18n="schedule.cta">Записаться</a>
           </div>
           <div class="sched__map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3368.5!2d34.853!3d32.321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzLCsDE5JzE1LjYiTiAzNMKwNTEnMTAuOCJF!5e0!3m2!1sen!2sil!4v1" width="100%" height="280" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Eventus Kids location"></iframe>
@@ -265,10 +265,6 @@
         <a href="tel:+972557704007" class="footer__link">+972 55-770-4007</a>
         <a href="mailto:info@eventus-kids.com" class="footer__link">info@eventus-kids.com</a>
         <a href="https://wa.me/972557704007" class="footer__link" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-      </div>
-      <div class="footer__social">
-        <a href="#" class="footer__social-link" aria-label="Instagram">Instagram</a>
-        <a href="#" class="footer__social-link" aria-label="Facebook">Facebook</a>
       </div>
     </div>
     <p class="footer__copy">&copy; 2026 Eventus Kids. <span data-i18n="footer.rights">Все права защищены.</span></p>
