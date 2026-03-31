@@ -6,32 +6,20 @@
   <title>Eventus Kids — Креативный детский клуб в Нетании</title>
   <meta name="description" content="Eventus Kids — креативный детский клуб в Нетании. Развиваем речь, эмоциональный интеллект и уверенность через театр, музыку и творчество. Суббота, маленькие группы.">
   <link rel="canonical" href="https://eventus-kids.com/">
-
-  <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://eventus-kids.com/">
   <meta property="og:title" content="Eventus Kids — Креативный детский клуб в Нетании">
   <meta property="og:description" content="Развиваем речь, эмоциональный интеллект и уверенность через театр, музыку и творчество.">
-  <meta property="og:image" content="https://eventus-kids.com/images/hero-placeholder.jpg">
-
-  <!-- Twitter Card -->
+  <meta property="og:image" content="https://eventus-kids.com/images/logo.jpeg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Eventus Kids — Креативный детский клуб в Нетании">
   <meta name="twitter:description" content="Развиваем речь, эмоциональный интеллект и уверенность через театр, музыку и творчество.">
-  <meta name="twitter:image" content="https://eventus-kids.com/images/hero-placeholder.jpg">
-
-  <!-- Favicon -->
+  <meta name="twitter:image" content="https://eventus-kids.com/images/logo.jpeg">
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
-
-  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
-
-  <!-- Styles -->
   <link rel="stylesheet" href="css/styles.css">
-
-  <!-- Structured Data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -41,41 +29,22 @@
     "url": "https://eventus-kids.com",
     "telephone": "+972557704007",
     "email": "info@eventus-kids.com",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Smilanski 10",
-      "addressLocality": "Netanya",
-      "addressCountry": "IL"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 32.3215,
-      "longitude": 34.8532
-    },
-    "openingHoursSpecification": [
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Saturday",
-        "opens": "10:00",
-        "closes": "16:00"
-      }
-    ],
-    "image": "https://eventus-kids.com/images/logo.png",
+    "address": { "@type": "PostalAddress", "streetAddress": "Smilanski 10", "addressLocality": "Netanya", "addressCountry": "IL" },
+    "geo": { "@type": "GeoCoordinates", "latitude": 32.3215, "longitude": 34.8532 },
+    "openingHoursSpecification": [{ "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "10:00", "closes": "16:00" }],
+    "image": "https://eventus-kids.com/images/logo.jpeg",
     "priceRange": "$$"
   }
   </script>
 </head>
 <body>
-  <!-- Skip to content -->
-  <a href="#main-content" class="skip-link" data-i18n="skip">Перейти к содержимому</a>
+  <a href="#main" class="skip-link" data-i18n="skip">Перейти к содержимому</a>
 
-  <!-- Header / Navigation -->
   <header class="site-header" id="site-header">
-    <nav class="nav" aria-label="Main navigation">
-      <a href="/" class="nav__logo" aria-label="Eventus Kids — Home">
-        <img src="images/logo.jpeg" alt="Eventus Kids" class="nav__logo-img" width="48" height="48">
+    <nav class="nav">
+      <a href="/" class="nav__logo" aria-label="Eventus Kids">
+        <img src="images/logo.jpeg" alt="Eventus Kids" width="38" height="38">
       </a>
-
       <ul class="nav__links" id="nav-links" role="list">
         <li><a href="#programs" class="nav__link" data-i18n="nav.programs">Направления</a></li>
         <li><a href="#about" class="nav__link" data-i18n="nav.about">О нас</a></li>
@@ -83,14 +52,12 @@
         <li><a href="#schedule" class="nav__link" data-i18n="nav.schedule">Расписание</a></li>
         <li><a href="#register" class="nav__link nav__link--cta" data-i18n="nav.register">Записаться</a></li>
       </ul>
-
       <div class="nav__actions">
         <button class="lang-toggle" id="lang-toggle" type="button" aria-label="Switch language">
           <span class="lang-toggle__option lang-toggle__option--active" data-lang="ru">RU</span>
           <span class="lang-toggle__divider">|</span>
           <span class="lang-toggle__option" data-lang="en">EN</span>
         </button>
-
         <button class="nav__burger" id="nav-burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
           <span class="nav__burger-line"></span>
           <span class="nav__burger-line"></span>
@@ -100,136 +67,84 @@
     </nav>
   </header>
 
-  <main id="main-content">
+  <main id="main">
 
-    <!-- ========== HERO ========== -->
-    <section class="hero" id="hero">
-      <div class="hero__bg"></div>
-      <div class="hero__content">
-        <img src="images/logo.jpeg" alt="Eventus Kids logo" class="hero__logo" width="140" height="140">
+    <section class="hero">
+      <div class="hero__inner">
+        <img src="images/logo.jpeg" alt="" class="hero__logo" width="90" height="90">
         <h1 class="hero__title" data-i18n="hero.title">Креативный детский клуб в Нетании</h1>
-        <p class="hero__subtitle" data-i18n="hero.subtitle">Развиваем речь, уверенность и эмоциональный интеллект через театр, музыку и творчество</p>
-        <div class="hero__actions">
-          <a href="#register" class="btn btn--primary btn--lg" data-i18n="hero.cta">Записаться на пробное занятие</a>
-          <a href="https://wa.me/972557704007" class="btn btn--outline btn--lg" target="_blank" rel="noopener noreferrer" data-i18n="hero.whatsapp">Написать в WhatsApp</a>
+        <p class="hero__sub" data-i18n="hero.subtitle">Развиваем речь, уверенность и эмоциональный интеллект через театр, музыку и творчество</p>
+        <div class="hero__btns">
+          <a href="#register" class="btn btn--primary btn--lg" data-i18n="hero.cta">Записаться на пробное</a>
+          <a href="https://wa.me/972557704007" class="btn btn--ghost btn--lg" target="_blank" rel="noopener noreferrer" data-i18n="hero.whatsapp">WhatsApp</a>
         </div>
       </div>
     </section>
 
-    <!-- ========== INFO STRIP — key facts at a glance ========== -->
-    <section class="info-strip" aria-label="Key facts">
-      <div class="container">
-        <div class="info-strip__items">
-          <div class="info-strip__item">
-            <span class="info-strip__icon" aria-hidden="true">&#128197;</span>
-            <span class="info-strip__label" data-i18n="strip.day">Суббота</span>
-          </div>
-          <div class="info-strip__item">
-            <span class="info-strip__icon" aria-hidden="true">&#128205;</span>
-            <span class="info-strip__label" data-i18n="strip.location">Нетания</span>
-          </div>
-          <div class="info-strip__item">
-            <span class="info-strip__icon" aria-hidden="true">&#128101;</span>
-            <span class="info-strip__label" data-i18n="strip.groups">Маленькие группы</span>
-          </div>
-          <div class="info-strip__item">
-            <span class="info-strip__icon" aria-hidden="true">&#127912;</span>
-            <span class="info-strip__label" data-i18n="strip.ages">Возраст 4–12</span>
-          </div>
+    <section class="info-strip" aria-label="Key info">
+      <div class="wrap">
+        <div class="info-strip__row">
+          <div class="info-strip__item"><span class="info-strip__icon">&#128197;</span> <span data-i18n="strip.day">Суббота</span></div>
+          <div class="info-strip__item"><span class="info-strip__icon">&#128205;</span> <span data-i18n="strip.location">Нетания</span></div>
+          <div class="info-strip__item"><span class="info-strip__icon">&#128101;</span> <span data-i18n="strip.groups">Маленькие группы</span></div>
+          <div class="info-strip__item"><span class="info-strip__icon">&#127912;</span> <span data-i18n="strip.ages">Возраст 4–12</span></div>
         </div>
       </div>
     </section>
 
-    <!-- ========== PROGRAMS — card grid ========== -->
-    <section class="section programs" id="programs">
-      <div class="container">
-        <h2 class="section__title" data-i18n="programs.title">Три направления — один процесс</h2>
-        <p class="section__subtitle" data-i18n="programs.subtitle">Мы соединяем театр, музыку и арт в единый процесс, чтобы ребёнок развивался целиком</p>
-
+    <section class="sec" id="programs">
+      <div class="wrap">
+        <h2 class="sec__title" data-i18n="programs.title">Три направления — один процесс</h2>
+        <p class="sec__sub" data-i18n="programs.subtitle">Театр, музыка и арт объединены, чтобы ребёнок развивался целиком</p>
         <div class="programs__grid">
-          <article class="program-card animate-on-scroll">
-            <div class="program-card__image ph placeholder-image--theater" role="img" aria-label="Theater">
-              <span>Theater</span>
-            </div>
-            <div class="program-card__body">
-              <h3 class="program-card__title" data-i18n="program.theater.title">Театр</h3>
-              <p class="program-card__text" data-i18n="program.theater.desc">Раскрепощение, общение, работа с речью, вниманием и эмоциями</p>
+          <article class="pcard anim">
+            <img class="pcard__img" src="images/theater.jpg" alt="Theater class" loading="lazy">
+            <div class="pcard__body">
+              <h3 class="pcard__title" data-i18n="program.theater.title">Театр</h3>
+              <p class="pcard__text" data-i18n="program.theater.desc">Раскрепощение, общение, работа с речью, вниманием и эмоциями</p>
             </div>
           </article>
-
-          <article class="program-card animate-on-scroll">
-            <div class="program-card__image ph placeholder-image--music" role="img" aria-label="Music">
-              <span>Music</span>
-            </div>
-            <div class="program-card__body">
-              <h3 class="program-card__title" data-i18n="program.music.title">Музыка</h3>
-              <p class="program-card__text" data-i18n="program.music.desc">Голос, слух, ноты — и мини-представления, где ребёнок проживает музыку</p>
+          <article class="pcard anim">
+            <img class="pcard__img" src="images/music.jpg" alt="Music class" loading="lazy">
+            <div class="pcard__body">
+              <h3 class="pcard__title" data-i18n="program.music.title">Музыка</h3>
+              <p class="pcard__text" data-i18n="program.music.desc">Голос, слух, ноты — и мини-представления, где ребёнок проживает музыку</p>
             </div>
           </article>
-
-          <article class="program-card animate-on-scroll">
-            <div class="program-card__image ph placeholder-image--art" role="img" aria-label="Art">
-              <span>Art</span>
-            </div>
-            <div class="program-card__body">
-              <h3 class="program-card__title" data-i18n="program.art.title">Декоративное искусство</h3>
-              <p class="program-card__text" data-i18n="program.art.desc">Ребёнок выражает себя, рассказывает свою историю через прикладное творчество</p>
+          <article class="pcard anim">
+            <img class="pcard__img" src="images/art.jpg" alt="Art class" loading="lazy">
+            <div class="pcard__body">
+              <h3 class="pcard__title" data-i18n="program.art.title">Декоративное искусство</h3>
+              <p class="pcard__text" data-i18n="program.art.desc">Ребёнок выражает себя и рассказывает свою историю через творчество</p>
             </div>
           </article>
         </div>
-
-        <div class="programs__cta animate-on-scroll">
-          <a href="#register" class="btn btn--primary" data-i18n="programs.cta">Попробовать бесплатно</a>
-        </div>
+        <div class="programs__cta anim"><a href="#register" class="btn btn--primary" data-i18n="programs.cta">Попробовать бесплатно</a></div>
       </div>
     </section>
 
-    <!-- ========== OUTCOMES — what kids gain ========== -->
-    <section class="section section--alt outcomes" id="outcomes">
-      <div class="container">
-        <h2 class="section__title" data-i18n="outcomes.title">Что получает ребёнок</h2>
+    <section class="sec sec--gray" id="outcomes">
+      <div class="wrap">
+        <h2 class="sec__title" data-i18n="outcomes.title">Что получает ребёнок</h2>
         <div class="outcomes__grid">
-          <div class="outcome animate-on-scroll">
-            <span class="outcome__icon" aria-hidden="true">&#128172;</span>
-            <p class="outcome__text" data-i18n="outcomes.item1">Начинает свободнее говорить</p>
-          </div>
-          <div class="outcome animate-on-scroll">
-            <span class="outcome__icon" aria-hidden="true">&#128161;</span>
-            <p class="outcome__text" data-i18n="outcomes.item2">Учится формулировать мысли</p>
-          </div>
-          <div class="outcome animate-on-scroll">
-            <span class="outcome__icon" aria-hidden="true">&#11088;</span>
-            <p class="outcome__text" data-i18n="outcomes.item3">Перестаёт бояться проявляться</p>
-          </div>
-          <div class="outcome animate-on-scroll">
-            <span class="outcome__icon" aria-hidden="true">&#128150;</span>
-            <p class="outcome__text" data-i18n="outcomes.item4">Лучше понимает свои эмоции</p>
-          </div>
-          <div class="outcome animate-on-scroll">
-            <span class="outcome__icon" aria-hidden="true">&#128066;</span>
-            <p class="outcome__text" data-i18n="outcomes.item5">Учится слышать других</p>
-          </div>
-          <div class="outcome outcome--highlight animate-on-scroll">
-            <span class="outcome__icon" aria-hidden="true">&#128170;</span>
-            <p class="outcome__text" data-i18n="outcomes.item6">Появляется ощущение: «я могу»</p>
-          </div>
+          <div class="oitem anim"><span class="oitem__icon">&#128172;</span><p class="oitem__text" data-i18n="outcomes.item1">Начинает свободнее говорить</p></div>
+          <div class="oitem anim"><span class="oitem__icon">&#128161;</span><p class="oitem__text" data-i18n="outcomes.item2">Учится формулировать мысли</p></div>
+          <div class="oitem anim"><span class="oitem__icon">&#11088;</span><p class="oitem__text" data-i18n="outcomes.item3">Перестаёт бояться проявляться</p></div>
+          <div class="oitem anim"><span class="oitem__icon">&#128150;</span><p class="oitem__text" data-i18n="outcomes.item4">Лучше понимает свои эмоции</p></div>
+          <div class="oitem anim"><span class="oitem__icon">&#128066;</span><p class="oitem__text" data-i18n="outcomes.item5">Учится слышать других</p></div>
+          <div class="oitem oitem--hl anim"><span class="oitem__icon">&#128170;</span><p class="oitem__text" data-i18n="outcomes.item6">Появляется ощущение: «я могу»</p></div>
         </div>
       </div>
     </section>
 
-    <!-- ========== ABOUT — short and warm ========== -->
-    <section class="section about" id="about">
-      <div class="container">
-        <div class="about__layout animate-on-scroll">
-          <div class="about__image">
-            <div class="ph" role="img" aria-label="Children in creative activities">
-              <span>About Photo</span>
-            </div>
-          </div>
-          <div class="about__content">
-            <h2 class="section__title section__title--left" data-i18n="about.title">Тёплое пространство, где ребёнок раскрывается</h2>
+    <section class="sec" id="about">
+      <div class="wrap">
+        <div class="about__grid anim">
+          <img class="about__img" src="images/about.jpg" alt="Children in creative activities" loading="lazy">
+          <div class="about__body">
+            <h2 class="sec__title sec__title--left" data-i18n="about.title">Тёплое пространство, где ребёнок раскрывается</h2>
             <p data-i18n="about.p1">Eventus Kids — это не кружок и не школа. Это среда, где ребёнку спокойно, понятно и интересно.</p>
-            <p data-i18n="about.p2">Каждое занятие — продуманная структура. Нет потока и случайных активностей. Маленькие группы, внимание к каждому.</p>
+            <p data-i18n="about.p2">Каждое занятие — продуманная структура. Маленькие группы, внимание к каждому.</p>
             <p data-i18n="about.p3">Мы помогаем раскрыть сильные стороны ребёнка через три вида творчества, объединённых в один процесс.</p>
             <a href="#register" class="btn btn--primary" data-i18n="about.cta">Записаться</a>
           </div>
@@ -237,108 +152,57 @@
       </div>
     </section>
 
-    <!-- ========== REVIEWS — trust signals ========== -->
-    <section class="section section--alt reviews" id="reviews">
-      <div class="container">
-        <h2 class="section__title" data-i18n="reviews.title">Что говорят родители</h2>
+    <section class="sec sec--gray" id="reviews">
+      <div class="wrap">
+        <h2 class="sec__title" data-i18n="reviews.title">Что говорят родители</h2>
         <div class="reviews__grid">
-          <blockquote class="review-card animate-on-scroll">
-            <p class="review-card__text" data-i18n="review.1">Самое ценное — что ребёнок стал спокойнее и начал по-другому взаимодействовать с другими детьми. Мы заметили это уже через несколько занятий. И главное — он хочет сюда возвращаться.</p>
-          </blockquote>
-          <blockquote class="review-card animate-on-scroll">
-            <p class="review-card__text" data-i18n="review.2">Мне важно, что здесь не просто занятия. Примерно через месяц я увидела, что ребёнок стал более открытым.</p>
-          </blockquote>
-          <blockquote class="review-card animate-on-scroll">
-            <p class="review-card__text" data-i18n="review.3">Я просто вижу, что ребёнку здесь хорошо. Он с радостью ждёт каждую субботу — и это для меня главный показатель.</p>
-          </blockquote>
+          <blockquote class="rcard anim"><p class="rcard__text" data-i18n="review.1">Самое ценное — что ребёнок стал спокойнее и начал по-другому взаимодействовать с другими детьми. Мы заметили это уже через несколько занятий. И главное — он хочет сюда возвращаться.</p></blockquote>
+          <blockquote class="rcard anim"><p class="rcard__text" data-i18n="review.2">Мне важно, что здесь не просто занятия. Примерно через месяц я увидела, что ребёнок стал более открытым.</p></blockquote>
+          <blockquote class="rcard anim"><p class="rcard__text" data-i18n="review.3">Я просто вижу, что ребёнку здесь хорошо. Он с радостью ждёт каждую субботу — и это для меня главный показатель.</p></blockquote>
         </div>
       </div>
     </section>
 
-    <!-- ========== TEACHERS ========== -->
-    <section class="section teachers" id="teachers">
-      <div class="container">
-        <h2 class="section__title" data-i18n="teachers.title">Наши педагоги</h2>
-        <div class="teachers__grid">
-          <article class="teacher animate-on-scroll">
-            <div class="teacher__photo ph teacher__photo-ph" role="img" aria-label="Teacher 1">
-              <span>Teacher 1</span>
-            </div>
-            <h3 class="teacher__name" data-i18n="teacher.1.name">TBD</h3>
-            <p class="teacher__role" data-i18n="teacher.1.role">TBD</p>
-          </article>
-          <article class="teacher animate-on-scroll">
-            <div class="teacher__photo ph teacher__photo-ph" role="img" aria-label="Teacher 2">
-              <span>Teacher 2</span>
-            </div>
-            <h3 class="teacher__name" data-i18n="teacher.2.name">TBD</h3>
-            <p class="teacher__role" data-i18n="teacher.2.role">TBD</p>
-          </article>
-          <article class="teacher animate-on-scroll">
-            <div class="teacher__photo ph teacher__photo-ph" role="img" aria-label="Teacher 3">
-              <span>Teacher 3</span>
-            </div>
-            <h3 class="teacher__name" data-i18n="teacher.3.name">TBD</h3>
-            <p class="teacher__role" data-i18n="teacher.3.role">TBD</p>
-          </article>
-        </div>
-      </div>
-    </section>
+    <!-- Teachers section hidden until real info is provided -->
 
-    <!-- ========== SCHEDULE & LOCATION ========== -->
-    <section class="section section--alt schedule" id="schedule">
-      <div class="container">
-        <h2 class="section__title" data-i18n="schedule.title">Расписание и адрес</h2>
-        <div class="schedule__layout animate-on-scroll">
-          <div class="schedule__info">
-            <div class="schedule__cards">
-              <div class="schedule__card">
-                <span class="schedule__card-label" data-i18n="schedule.slot1Label">Утренняя группа</span>
-                <span class="schedule__card-time" data-i18n="schedule.slot1">10:00–13:00</span>
+    <section class="sec sec--gray" id="schedule">
+      <div class="wrap">
+        <h2 class="sec__title" data-i18n="schedule.title">Расписание и адрес</h2>
+        <div class="sched__grid anim">
+          <div class="sched__info">
+            <div class="sched__slots">
+              <div class="sched__slot">
+                <span class="sched__slot-label" data-i18n="schedule.slot1Label">Утренняя группа</span>
+                <span class="sched__slot-time" data-i18n="schedule.slot1">10:00–13:00</span>
               </div>
-              <div class="schedule__card">
-                <span class="schedule__card-label" data-i18n="schedule.slot2Label">Дневная группа</span>
-                <span class="schedule__card-time" data-i18n="schedule.slot2">13:00–16:00</span>
+              <div class="sched__slot">
+                <span class="sched__slot-label" data-i18n="schedule.slot2Label">Дневная группа</span>
+                <span class="sched__slot-time" data-i18n="schedule.slot2">13:00–16:00</span>
               </div>
             </div>
-            <address class="schedule__address">
+            <address class="sched__details">
               <p><strong data-i18n="schedule.dayLabel">День:</strong> <span data-i18n="schedule.day">Суббота</span></p>
               <p><strong data-i18n="schedule.addressLabel">Адрес:</strong> <span data-i18n="schedule.address">Нетания, Смилянски, 10</span></p>
             </address>
-            <p class="schedule__note" data-i18n="schedule.note">Мы работаем в субботу — в день, когда у большинства родителей нет удобных детских занятий.</p>
+            <p class="sched__note" data-i18n="schedule.note">Мы работаем в субботу — в день, когда у большинства родителей нет удобных детских занятий.</p>
             <a href="#register" class="btn btn--primary" data-i18n="schedule.cta">Записаться</a>
           </div>
-          <div class="schedule__map">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3368.5!2d34.853!3d32.321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzLCsDE5JzE1LjYiTiAzNMKwNTEnMTAuOCJF!5e0!3m2!1sen!2sil!4v1"
-              width="100%"
-              height="300"
-              style="border:0; border-radius: 12px;"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-              title="Eventus Kids location on Google Maps"
-            ></iframe>
+          <div class="sched__map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3368.5!2d34.853!3d32.321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzLCsDE5JzE1LjYiTiAzNMKwNTEnMTAuOCJF!5e0!3m2!1sen!2sil!4v1" width="100%" height="280" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Eventus Kids location"></iframe>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ========== REGISTRATION FORM ========== -->
-    <section class="section register" id="register">
-      <div class="container container--form">
-        <h2 class="section__title" data-i18n="register.title">Записаться</h2>
-        <p class="register__subtitle" data-i18n="register.subtitle">Оставьте заявку — мы свяжемся и подберём группу</p>
-
+    <section class="register" id="register">
+      <div class="wrap wrap--sm">
+        <h2 class="sec__title" data-i18n="register.title">Записаться</h2>
+        <p class="register__sub" data-i18n="register.subtitle">Оставьте заявку — мы свяжемся и подберём группу</p>
         <form class="form" id="registration-form" action="https://api.web3forms.com/submit" method="POST" novalidate>
           <input type="hidden" name="access_key" value="3452f12f-84d0-4b21-96bc-89ee63287c1d">
-          <input type="hidden" name="subject" value="New registration from Eventus Kids website">
+          <input type="hidden" name="subject" value="New registration — Eventus Kids">
           <input type="hidden" name="from_name" value="Eventus Kids Website">
-          <div class="form__honeypot" aria-hidden="true">
-            <label for="botcheck">Do not fill this</label>
-            <input type="checkbox" name="botcheck" id="botcheck" tabindex="-1" autocomplete="off">
-          </div>
-
+          <div class="form__hp" aria-hidden="true"><input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off"></div>
           <div class="form__row">
             <div class="form__group">
               <label for="parent-name" class="form__label" data-i18n="form.parentName">Имя родителя</label>
@@ -351,7 +215,6 @@
               <span class="form__error" data-error-key="form.phoneError" aria-live="polite"></span>
             </div>
           </div>
-
           <div class="form__row">
             <div class="form__group">
               <label for="child-name" class="form__label" data-i18n="form.childName">Имя ребёнка</label>
@@ -364,26 +227,17 @@
               <span class="form__error" data-error-key="form.childAgeError" aria-live="polite"></span>
             </div>
           </div>
-
-          <fieldset class="form__group form__fieldset">
+          <fieldset class="form__group">
             <legend class="form__label" data-i18n="form.timeSlot">Предпочтительное время</legend>
             <div class="form__radios">
-              <label class="form__radio-label">
-                <input type="radio" name="time_slot" value="10:00-13:00" class="form__radio" required>
-                <span data-i18n="form.slot1">10:00–13:00</span>
-              </label>
-              <label class="form__radio-label">
-                <input type="radio" name="time_slot" value="13:00-16:00" class="form__radio">
-                <span data-i18n="form.slot2">13:00–16:00</span>
-              </label>
+              <label class="form__radio-label"><input type="radio" name="time_slot" value="10:00-13:00" class="form__radio" required> <span data-i18n="form.slot1">10:00–13:00</span></label>
+              <label class="form__radio-label"><input type="radio" name="time_slot" value="13:00-16:00" class="form__radio"> <span data-i18n="form.slot2">13:00–16:00</span></label>
             </div>
             <span class="form__error" data-error-key="form.timeSlotError" aria-live="polite"></span>
           </fieldset>
-
           <div class="form__status" id="form-status" aria-live="polite"></div>
           <button type="submit" class="btn btn--primary btn--full form__submit" data-i18n="form.submit">Отправить заявку</button>
         </form>
-
         <div class="form__success" id="form-success" hidden>
           <div class="form__success-icon" aria-hidden="true">&#10003;</div>
           <p class="form__success-text" data-i18n="form.successTitle">Спасибо!</p>
@@ -394,18 +248,14 @@
 
   </main>
 
-  <!-- WhatsApp Floating Button -->
   <a href="https://wa.me/972557704007" class="whatsapp-fab" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
-    <svg class="whatsapp-fab__icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-      <path d="M16.004 2.667A13.28 13.28 0 0 0 2.72 15.947a13.2 13.2 0 0 0 1.796 6.64L2.667 29.333l6.973-1.828A13.28 13.28 0 0 0 16.004 29.4c7.337 0 13.33-5.96 13.33-13.293S23.34 2.667 16.003 2.667Zm0 24.28a10.94 10.94 0 0 1-5.58-1.524l-.4-.237-4.14 1.085 1.105-4.04-.26-.414a10.87 10.87 0 0 1-1.676-5.81c0-6.063 4.937-10.973 11.004-10.973 6.04 0 10.95 4.91 10.95 10.973-.027 6.064-4.937 10.94-11.003 10.94Zm6.037-8.213c-.333-.16-1.95-.96-2.253-1.067-.3-.107-.52-.16-.74.16s-.847 1.067-1.04 1.293c-.193.227-.38.253-.713.08-.333-.16-1.397-.513-2.663-1.64-.987-.88-1.65-1.96-1.843-2.293-.193-.333-.02-.507.147-.673.147-.147.333-.387.493-.573.16-.187.213-.32.32-.533.107-.213.053-.4-.027-.56-.08-.16-.74-1.787-1.013-2.44-.267-.64-.54-.56-.74-.56-.193-.013-.413-.013-.633-.013s-.58.08-.887.4c-.307.32-1.16 1.133-1.16 2.76 0 1.627 1.187 3.2 1.353 3.42.167.213 2.34 3.573 5.667 5.013.793.34 1.413.547 1.893.7.797.253 1.52.22 2.093.133.64-.093 1.95-.793 2.227-1.56.273-.773.273-1.427.193-1.56-.08-.147-.3-.24-.633-.4Z" fill="currentColor"/>
-    </svg>
+    <svg class="whatsapp-fab__icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M16.004 2.667A13.28 13.28 0 0 0 2.72 15.947a13.2 13.2 0 0 0 1.796 6.64L2.667 29.333l6.973-1.828A13.28 13.28 0 0 0 16.004 29.4c7.337 0 13.33-5.96 13.33-13.293S23.34 2.667 16.003 2.667Zm0 24.28a10.94 10.94 0 0 1-5.58-1.524l-.4-.237-4.14 1.085 1.105-4.04-.26-.414a10.87 10.87 0 0 1-1.676-5.81c0-6.063 4.937-10.973 11.004-10.973 6.04 0 10.95 4.91 10.95 10.973-.027 6.064-4.937 10.94-11.003 10.94Zm6.037-8.213c-.333-.16-1.95-.96-2.253-1.067-.3-.107-.52-.16-.74.16s-.847 1.067-1.04 1.293c-.193.227-.38.253-.713.08-.333-.16-1.397-.513-2.663-1.64-.987-.88-1.65-1.96-1.843-2.293-.193-.333-.02-.507.147-.673.147-.147.333-.387.493-.573.16-.187.213-.32.32-.533.107-.213.053-.4-.027-.56-.08-.16-.74-1.787-1.013-2.44-.267-.64-.54-.56-.74-.56-.193-.013-.413-.013-.633-.013s-.58.08-.887.4c-.307.32-1.16 1.133-1.16 2.76 0 1.627 1.187 3.2 1.353 3.42.167.213 2.34 3.573 5.667 5.013.793.34 1.413.547 1.893.7.797.253 1.52.22 2.093.133.64-.093 1.95-.793 2.227-1.56.273-.773.273-1.427.193-1.56-.08-.147-.3-.24-.633-.4Z" fill="currentColor"/></svg>
   </a>
 
-  <!-- Footer -->
-  <footer class="footer" id="footer">
-    <div class="container footer__layout">
-      <div class="footer__brand">
-        <img src="images/logo.jpeg" alt="Eventus Kids" class="footer__logo-img" width="60" height="60">
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div>
+        <img src="images/logo.jpeg" alt="Eventus Kids" class="footer__logo" width="40" height="40">
         <p class="footer__tagline" data-i18n="footer.tagline">Креативный детский клуб в Нетании</p>
       </div>
       <div class="footer__contact">

@@ -290,7 +290,7 @@
   var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 
   function initScrollAnimations() {
-    var elements = document.querySelectorAll('.animate-on-scroll');
+    var elements = document.querySelectorAll('.anim');
     if (prefersReducedMotion.matches) {
       elements.forEach(function (el) { el.classList.add('is-visible'); });
       return;
