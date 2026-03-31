@@ -56,7 +56,10 @@ h1, h2, h3 { color: #1B3A6B; font-weight: 800; line-height: 1.25; }
 .hero__overlay { position: absolute; inset: 0; background: rgba(27,58,107,.65); }
 .hero__inner { position: relative; z-index: 1; max-width: 1060px; margin: 0 auto; padding: 0 1.25rem; width: 100%; }
 .hero__title { font-size: clamp(1.6rem, 4vw, 2.25rem); margin-bottom: .6rem; max-width: 500px; color: #fff; }
-.hero__sub { color: rgba(255,255,255,.85); margin-bottom: 1.75rem; font-size: clamp(.9rem, 1.8vw, 1.05rem); max-width: 480px; }
+.hero__sub { color: rgba(255,255,255,.85); margin-bottom: .75rem; font-size: clamp(.9rem, 1.8vw, 1.05rem); max-width: 480px; }
+.hero__desc { color: rgba(255,255,255,.75); margin-bottom: .5rem; font-size: .9rem; max-width: 480px; }
+.hero__tagline { color: #fff; font-weight: 800; margin-bottom: .25rem; font-size: .95rem; }
+.hero__location { color: rgba(255,255,255,.6); font-size: .8rem; font-weight: 700; letter-spacing: .02em; margin-bottom: 1.5rem; }
 .hero__btns { display: flex; flex-direction: column; gap: .6rem; align-items: flex-start; }
 
 /* ── BUTTONS ── */
