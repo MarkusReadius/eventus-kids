@@ -54,40 +54,40 @@ fieldset {
 :root {
   /* Backgrounds */
   --color-bg-white: #FFFFFF;
-  --color-bg-cream: #FAF7F2;
-  --color-bg-warm-gray: #F0EBE3;
-  --color-bg-dark: #0D1B2A;
+  --color-bg-cream: #FFF8F0;
+  --color-bg-warm-gray: #FFF0E6;
+  --color-bg-dark: #2D3748;
 
   /* Text */
-  --color-text-primary: #1A1A1A;
-  --color-text-heading: #1B3A6B;
-  --color-text-secondary: #6B6B6B;
+  --color-text-primary: #2D3748;
+  --color-text-heading: #E8673C;
+  --color-text-secondary: #718096;
   --color-text-on-dark: #FFFFFF;
-  --color-text-on-dark-muted: #B0B8C4;
+  --color-text-on-dark-muted: #CBD5E0;
 
-  /* Accent — green */
-  --color-accent-green: #3E8E41;
-  --color-accent-green-hover: #336F34;
-  --color-accent-green-light: #E8F5E9;
+  /* Accent — coral/orange (warm, playful, inviting) */
+  --color-accent-green: #E8673C;
+  --color-accent-green-hover: #D45A32;
+  --color-accent-green-light: #FFF0E6;
 
-  /* Accent — navy */
-  --color-accent-navy: #1B3A6B;
-  --color-accent-navy-light: #2A4F8A;
+  /* Accent — sky blue (friendly, trustworthy) */
+  --color-accent-navy: #4A90D9;
+  --color-accent-navy-light: #5BA0E8;
 
   /* Buttons */
-  --color-button-primary-bg: #3E8E41;
-  --color-button-primary-bg-hover: #336F34;
+  --color-button-primary-bg: #E8673C;
+  --color-button-primary-bg-hover: #D45A32;
   --color-button-primary-text: #FFFFFF;
   --color-button-secondary-bg: transparent;
-  --color-button-secondary-border: #1B3A6B;
-  --color-button-secondary-text: #1B3A6B;
+  --color-button-secondary-border: #4A90D9;
+  --color-button-secondary-text: #4A90D9;
 
   /* Utility */
-  --color-divider: #E8E2DA;
-  --color-input-border: #D0C9C0;
-  --color-input-focus: #3E8E41;
-  --color-error: #C62828;
-  --color-success: #2E7D32;
+  --color-divider: #F0E6DA;
+  --color-input-border: #E2D8CC;
+  --color-input-focus: #4A90D9;
+  --color-error: #E53E3E;
+  --color-success: #38A169;
 
   /* Typography */
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
@@ -272,38 +272,38 @@ h1, h2, h3, h4 {
 }
 
 .placeholder-image--about {
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  background: linear-gradient(135deg, #F6A583, #F9C06B);
   min-height: 400px;
 }
 
 .placeholder-image--sessions {
-  background: linear-gradient(135deg, #f093fb, #f5576c);
+  background: linear-gradient(135deg, #7EC8E3, #4A90D9);
   min-height: 500px;
 }
 
 .placeholder-image--theater {
-  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  background: linear-gradient(135deg, #F9C06B, #E8673C);
   min-height: 400px;
 }
 
 .placeholder-image--music {
-  background: linear-gradient(135deg, #43e97b, #38f9d7);
+  background: linear-gradient(135deg, #7EC8E3, #56B4D3);
   min-height: 400px;
 }
 
 .placeholder-image--art {
-  background: linear-gradient(135deg, #fa709a, #fee140);
+  background: linear-gradient(135deg, #C8A2D4, #F6A583);
   min-height: 400px;
 }
 
 .placeholder-image--open-session {
-  background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+  background: linear-gradient(135deg, #F9C06B, #F6A583);
   position: absolute;
   inset: 0;
 }
 
 .placeholder-image--teacher {
-  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  background: linear-gradient(135deg, #7EC8E3, #A8D8EA);
   width: 160px;
   height: 160px;
   border-radius: 50%;
@@ -352,11 +352,11 @@ h1, h2, h3, h4 {
 }
 
 .site-header.scrolled .nav__logo {
-  color: var(--color-accent-navy);
+  color: var(--color-text-primary);
 }
 
 .nav__logo-kids {
-  color: var(--color-accent-green);
+  color: #F9C06B;
 }
 
 /* Nav links — hidden on mobile */
@@ -520,7 +520,7 @@ h1, h2, h3, h4 {
 .hero__bg {
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, #1B3A6B, #0D1B2A 40%, #2A4F8A);
+  background: linear-gradient(135deg, #F6A583, #E8673C 40%, #F9C06B);
   z-index: 0;
 }
 
@@ -559,7 +559,7 @@ h1, h2, h3, h4 {
   font-family: var(--font-sans);
   font-size: clamp(1.5rem, 4vw, 2.5rem);
   font-weight: 800;
-  color: var(--color-accent-green);
+  color: #F9C06B;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   line-height: 1;
@@ -1275,7 +1275,7 @@ h1, h2, h3, h4 {
 }
 
 .footer__logo-kids {
-  color: var(--color-accent-green);
+  color: #F9C06B;
 }
 
 .footer__contact {
